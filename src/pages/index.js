@@ -1,7 +1,5 @@
 import * as React from "react";
-import {
-  TaggedContentCard
-} from 'react-ui-cards';
+import Card from '../components/Card';
 
 // styles
 const pageStyles = {
@@ -45,35 +43,23 @@ const appList = [
     link: 'https://github.com/nukeop',
     thumbnail: 'https://i.imgur.com/yCch7GN.jpg',
     title: 'Cheesecake',
-    date: '15 January 2021',
-    tags: [
-      'food',
-      'cake',
-      'fruits'
-    ]
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    date: '15 January 2021'
   },
   {
     link: 'https://github.com/nukeop',
     thumbnail: 'https://i.imgur.com/yCch7GN.jpg',
     title: 'Cheesecake',
-    date: '15 January 2021',
-    tags: [
-      'food',
-      'cake',
-      'fruits'
-    ]
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    date: '15 January 2021'
   },
   {
     link: 'https://github.com/nukeop',
     thumbnail: 'https://i.imgur.com/yCch7GN.jpg',
     title: 'Cheesecake',
-    date: '15 January 2021',
-    tags: [
-      'food',
-      'cake',
-      'fruits'
-    ]
-  }
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    date: '15 January 2021'
+  },
 ]
 
 // markup
@@ -102,14 +88,14 @@ const IndexPage = () => {
       <div style={cardContainerStyle}>
         {
           appList.map((appObj) => {
-            const { link, thumbnail, title, date, tags } = appObj;
+            const { link, thumbnail, title, description, date } = appObj;
             return (
-              <TaggedContentCard
-                href={link}
+              <Card
+                link={link}
                 thumbnail={thumbnail}
                 title={title}
-                description={date}
-                tags={tags}
+                description={description}
+                date={date}
               />
             );
           })
