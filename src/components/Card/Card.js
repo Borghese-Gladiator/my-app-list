@@ -3,7 +3,7 @@ import "./Card.css"
 
 const Card = (props) => (
   <div className="card">
-    <img src={props.thumbnail} />
+    <img src={props.thumbnail} alt="thumbnail" />
     <div className="card-body">
       <h2>{props.title}</h2>
       <p>{props.description}</p>
