@@ -2,6 +2,7 @@ import * as React from "react";
 import Card from '../components/Card';
 
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
+import MERNImg from '../images/mern-logos.png';
 
 // styles
 const pageStyles = {
@@ -49,11 +50,11 @@ const appList = [
     date: '16 January 2021'
   },
   {
-    link: 'https://github.com/nukeop',
-    thumbnail: 'https://i.imgur.com/yCch7GN.jpg',
-    title: 'Cheesecake',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    date: '15 January 2021'
+    link: 'https://mern-app-template-000.herokuapp.com/',
+    thumbnail: MERNImg,
+    title: 'MERN App Template',
+    description: "Forked mern-material-demo - rewrote to deploy to Heroku (build ES6 backend & build React frontend), rewrote signin/signup pages, added mobile support, upgraded package versions: Babel (5.x -> 7.x), Material UI (3.x -> 4.x), React Router (4.x -> 5.x)",
+    date: '18 January 2021'
   },
   {
     link: 'https://github.com/nukeop',
