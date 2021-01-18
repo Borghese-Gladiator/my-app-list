@@ -53,7 +53,7 @@ const appList = [
     link: 'https://mern-app-template-000.herokuapp.com/',
     thumbnail: MERNImg,
     title: 'MERN App Template',
-    description: "Forked mern-material-demo - rewrote to deploy to Heroku (build ES6 backend & build React frontend), rewrote signin/signup pages, added mobile support, upgraded package versions: Babel (5.x -> 7.x), Material UI (3.x -> 4.x), React Router (4.x -> 5.x)",
+    description: `Forked mern-material-demo - rewrote to deploy to Heroku (build ES6 backend & build React frontend), rewrote signin/signup pages, added mobile support, upgraded package versions: Babel (5.x ⟶ 7.x), Material UI (3.x ⟶ 4.x), React Router (4.x ⟶ 5.x)`,
     date: '18 January 2021'
   },
   {
