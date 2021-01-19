@@ -17,7 +17,6 @@
   "dependencies": {
     "gatsby": "^2.26.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-ui-cards": "^2.0.0"
+    "react-dom": "^16.13.1"
   }
 }
