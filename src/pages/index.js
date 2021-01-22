@@ -67,6 +67,14 @@ const appList = [
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     date: '15 January 2021'
   },
+  {
+    link: 'https://python-text-processing.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
+    thumbnail: FlaskTutorialImg,
+    title: 'Cool Components',
+    description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS)",
+    date: '15 January 2021'
+  },
 ]
 
 // markup
