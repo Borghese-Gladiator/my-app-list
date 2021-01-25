@@ -8,7 +8,7 @@ import PWAImg from '../images/pwa_app.png';
 import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
 import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
 import ErrorReactImg from '../images/error_handling_react.jpg';
-import ReactConcurrentImg from '../iamges/react-concurrent-img.jpeg'
+import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
 // styles
 const pageStyles = {
   color: "#232129",
