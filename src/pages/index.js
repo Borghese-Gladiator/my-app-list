@@ -8,6 +8,7 @@ import PWAImg from '../images/pwa_app.png';
 import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
 import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
 import ErrorReactImg from '../images/error_handling_react.jpg';
+import ReactConcurrentImg from '../iamges/react-concurrent-img.jpeg'
 // styles
 const pageStyles = {
   color: "#232129",
@@ -84,7 +85,7 @@ const appList = [
     thumbnail: ECommerceLogoImg,
     title: 'React Shopping Cart',
     description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
-    date: '25 January 2021'
+    date: '24 January 2021'
   },
   {
     link: 'https://react-error-boundary-0791.netlify.app/',
@@ -92,6 +93,14 @@ const appList = [
     thumbnail: ErrorReactImg,
     title: 'React Error Boundaries',
     description: "Tried out error boundaries with code from official React docs (& Dan Abramov's codepen) and added a custom reload component.",
+    date: '25 January 2021'
+  },
+  {
+    link: 'https://react-concurrent-example-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-concurrent-example',
+    thumbnail: ReactConcurrentImg,
+    title: 'React Concurrent Mode',
+    description: "Used React.lazy() and Suspense to lazy load components. Used React error boundaries to catch if loading failed.",
     date: '25 January 2021'
   },
   {
