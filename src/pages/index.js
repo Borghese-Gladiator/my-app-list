@@ -4,6 +4,9 @@ import Card from '../components/Card';
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
 import MERNImg from '../images/mern-logos.png';
 import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
+import PWAImg from '../images/pwa_app.png';
+import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
+import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
 
 // styles
 const pageStyles = {
@@ -60,20 +63,36 @@ const appList = [
     date: '18 January 2021'
   },
   {
-    link: 'https://python-text-processing.herokuapp.com/',
-    github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
-    thumbnail: FlaskTutorialImg,
-    title: 'NLTK Text Processing',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    date: '15 January 2021'
+    link: 'https://cool-components.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/Cool_Components',
+    thumbnail: HTMLCSSJSImg,
+    title: 'Cool Components',
+    description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS). eg: Particle Smoke Animation, Tag Cloud, Play/Pause Animations",
+    date: '20 January 2021'
+  },
+  {
+    link: 'https://tutorial-pushercoins.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/pushercoins',
+    thumbnail: PWAImg,
+    title: 'React Realtime PWA',
+    description: "Progressive Web App (PWA) with lighthouse audit & bundle analyzer scripts. React UI to track cryptocurrency prices with Pusher in realtime",
+    date: '25 January 2021'
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
     thumbnail: FlaskTutorialImg,
-    title: 'Cool Components',
-    description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS)",
-    date: '15 January 2021'
+    title: 'NLTK Text Processing',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    date: '25 January 2021'
+  },
+  {
+    link: 'https://react-shopping-cart-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-shopping-cart',
+    thumbnail: ECommerceLogoImg,
+    title: 'React Shopping Cart',
+    description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
+    date: '25 January 2021'
   },
 ]
 
