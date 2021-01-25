@@ -7,7 +7,7 @@ import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
 import PWAImg from '../images/pwa_app.png';
 import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
 import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
-
+import ErrorReactImg from '../images/error_handling_react.jpg';
 // styles
 const pageStyles = {
   color: "#232129",
@@ -76,6 +76,22 @@ const appList = [
     thumbnail: PWAImg,
     title: 'React Realtime PWA',
     description: "Progressive Web App (PWA) with lighthouse audit & bundle analyzer scripts. React UI to track cryptocurrency prices with Pusher in realtime",
+    date: '23 January 2021'
+  },
+  {
+    link: 'https://react-shopping-cart-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-shopping-cart',
+    thumbnail: ECommerceLogoImg,
+    title: 'React Shopping Cart',
+    description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
+    date: '25 January 2021'
+  },
+  {
+    link: 'https://react-error-boundary-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-error-boundaries',
+    thumbnail: ErrorReactImg,
+    title: 'React Error Boundaries',
+    description: "Tried out error boundaries with code from official React docs (& Dan Abramov's codepen) and added a custom reload component.",
     date: '25 January 2021'
   },
   {
@@ -84,14 +100,6 @@ const appList = [
     thumbnail: FlaskTutorialImg,
     title: 'NLTK Text Processing',
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    date: '25 January 2021'
-  },
-  {
-    link: 'https://react-shopping-cart-0791.netlify.app/',
-    github_link: 'https://github.com/Borghese-Gladiator/react-shopping-cart',
-    thumbnail: ECommerceLogoImg,
-    title: 'React Shopping Cart',
-    description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
     date: '25 January 2021'
   },
 ]
