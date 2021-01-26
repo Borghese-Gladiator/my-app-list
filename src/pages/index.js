@@ -9,6 +9,8 @@ import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
 import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
 import ErrorReactImg from '../images/error_handling_react.jpg';
 import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
+import TensorflowKerasLogoImg from '../images/tensorflow-keras-logo.png';
+
 // styles
 const pageStyles = {
   color: "#232129",
@@ -102,6 +104,14 @@ const appList = [
     title: 'React Concurrent Mode',
     description: "Used React.lazy() and Suspense to lazy load components. Used React error boundaries to catch if loading failed.",
     date: '25 January 2021'
+  },
+  {
+    link: 'https://simple-keras-rest-api.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/simple-keras-rest-api',
+    thumbnail: TensorflowKerasLogoImg,
+    title: 'Keras-REST-API',
+    description: "Forked example & rewrote to work on Heroku. Flask app exposes pre-trained Keras model for image classification to API requests (given image - returns labels classifying the image)",
+    date: '26 January 2021'
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
