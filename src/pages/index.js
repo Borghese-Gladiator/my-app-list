@@ -11,6 +11,7 @@ import ErrorReactImg from '../images/error_handling_react.jpg';
 import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
 import TensorflowKerasLogoImg from '../images/tensorflow-keras-logo.png';
 import TwoFAImg from '../images/2fa_shutterstock_image.jpg';
+import VueLogoImg from '..images/logo-vuejs-min.png';
 
 // styles
 const pageStyles = {
@@ -120,6 +121,14 @@ const appList = [
     thumbnail: TwoFAImg,
     title: 'Implement 2FA',
     description: "Forked LogRocket example & rewrote to work on Heroku. Node.js app that authenticates registered users with 2FA app like Google Authenticator (uses JSON file rather than proper database)",
+    date: '27 January 2021'
+  },
+  {
+    link: 'https://first-vue-app-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-vue-app',
+    thumbnail: VueLogoImg,
+    title: 'First Vue.js App',
+    description: "Used @vue/cli to generate Vue project & push to netlify. Note that vue-cli (2.X) does not build with index.html & doesn't deploy correctly!",
     date: '27 January 2021'
   },
   {
