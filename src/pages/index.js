@@ -10,6 +10,7 @@ import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
 import ErrorReactImg from '../images/error_handling_react.jpg';
 import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
 import TensorflowKerasLogoImg from '../images/tensorflow-keras-logo.png';
+import TwoFAImg from '../images/2fa_shutterstock_image.jpg';
 
 // styles
 const pageStyles = {
@@ -109,9 +110,17 @@ const appList = [
     link: 'https://simple-keras-rest-api.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/simple-keras-rest-api',
     thumbnail: TensorflowKerasLogoImg,
-    title: 'Keras-REST-API',
+    title: 'Keras REST API',
     description: "Forked example & rewrote to work on Heroku. Flask app exposes pre-trained Keras model for image classification to API requests (given image - returns labels classifying the image)",
     date: '26 January 2021'
+  },
+  {
+    link: 'https://two-fa-speakeasy-example.herokuapp.com/api',
+    github_link: 'https://github.com/Borghese-Gladiator/2fa-speakeasy-example',
+    thumbnail: TwoFAImg,
+    title: 'Implement 2FA',
+    description: "Forked LogRocket example & rewrote to work on Heroku. Node.js app that authenticates registered users with 2FA app like Google Authenticator (uses JSON file rather than proper database)",
+    date: '27 January 2021'
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
