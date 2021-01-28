@@ -12,6 +12,7 @@ import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
 import TensorflowKerasLogoImg from '../images/tensorflow-keras-logo.png';
 import TwoFAImg from '../images/2fa_shutterstock_image.jpg';
 import VueLogoImg from '..images/logo-vuejs-min.png';
+import React360Img from '../images/react-360-logo.png';
 
 // styles
 const pageStyles = {
@@ -131,6 +132,15 @@ const appList = [
     description: "Used @vue/cli to generate Vue project & push to netlify. Note that vue-cli (2.X) does not build with index.html & doesn't deploy correctly!",
     date: '27 January 2021'
   },
+  {
+    link: 'https://first-react-360-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-react-360',
+    thumbnail: React360Img,
+    title: 'First React 360 App',
+    description: "I fixed build node v12.11.0 vs v12.10.0 issue and deployed to Netlify a sample VR project with React. React 360 creates VR framework for the creation of interactive 360 experiences that run in your web browser.",
+    date: '28 January 2021'
+  },
+  
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
