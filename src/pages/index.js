@@ -11,8 +11,9 @@ import ErrorReactImg from '../images/error_handling_react.jpg';
 import ReactConcurrentImg from '../images/react-concurrent-img.jpeg'
 import TensorflowKerasLogoImg from '../images/tensorflow-keras-logo.png';
 import TwoFAImg from '../images/2fa_shutterstock_image.jpg';
-import VueLogoImg from '..images/logo-vuejs-min.png';
+import VueLogoImg from '../images/logo-vuejs-min.png';
 import React360Img from '../images/react-360-logo.png';
+import GoogleDocsImg from '../images/120618_GoogleDocs-Blog.png';
 
 // styles
 const pageStyles = {
@@ -140,7 +141,14 @@ const appList = [
     description: "I fixed build node v12.11.0 vs v12.10.0 issue and deployed to Netlify a sample VR project with React. React 360 creates VR framework for the creation of interactive 360 experiences that run in your web browser.",
     date: '28 January 2021'
   },
-  
+  {
+    link: 'https://google-doc-editor-clone.netlify.app/editor.html',
+    github_link: 'https://github.com/Borghese-Gladiator/GEditor',
+    thumbnail: GoogleDocsImg,
+    title: 'Google Doc Clone',
+    description: "I forked & learned how to dynamically apply CSS onto text and div elements with JavaScript. HTML, CSS, and JavaScript for frontend and I also set up a Firebase backend for this app to store.",
+    date: '5 February 2021'
+  },
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
