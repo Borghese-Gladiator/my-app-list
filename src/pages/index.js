@@ -15,6 +15,7 @@ import VueLogoImg from '../images/logo-vuejs-min.png';
 import React360Img from '../images/react-360-logo.png';
 import GoogleDocsImg from '../images/120618_GoogleDocs-Blog.png';
 import MusicPlayerImg from '../images/VectorPortal-Winged-Music-Icon.jpg';
+import TensorTradeImg from '../images/tensortrade_algorithm.png';
 
 // styles
 const pageStyles = {
@@ -157,6 +158,14 @@ const appList = [
     title: 'Python MP3 Player - Windows app',
     description: "I wrote a Python desktop with tkinter for GUI & pygame to manage audio commands & cx_Freeze to create the MSI installer. Since it's a desktop app, there is no online demo.",
     date: '6 February 2021'
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/simple-sine-curve/tree/main',
+    github_link: 'https://github.com/Borghese-Gladiator/simple-sine-curve/tree/main',
+    thumbnail: TensorTradeImg,
+    title: 'TensorTrade - Reinforcement Learning Trading Algorithm',
+    description: "Forked tutorial & used Docker to build/run TensorTrade script - script used Ray with TensorTrade (TT) in order to create a profitable algorithm on a predictable sine curve. No online demo included",
+    date: '7 February 2021'
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
