@@ -14,6 +14,7 @@ import TwoFAImg from '../images/2fa_shutterstock_image.jpg';
 import VueLogoImg from '../images/logo-vuejs-min.png';
 import React360Img from '../images/react-360-logo.png';
 import GoogleDocsImg from '../images/120618_GoogleDocs-Blog.png';
+import MusicPlayerImg from '../images/VectorPortal-Winged-Music-Icon.jpg';
 
 // styles
 const pageStyles = {
@@ -148,6 +149,14 @@ const appList = [
     title: 'Google Doc Clone',
     description: "I forked & learned how to dynamically apply CSS onto text and div elements with JavaScript. HTML, CSS, and JavaScript for frontend and I also set up a Firebase backend for this app to store.",
     date: '5 February 2021'
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/python-mp3-player',
+    github_link: 'https://github.com/Borghese-Gladiator/python-mp3-player',
+    thumbnail: MusicPlayerImg,
+    title: 'Python MP3 Player - Windows app',
+    description: "I wrote a Python desktop with tkinter for GUI & pygame to manage audio commands & cx_Freeze to create the MSI installer. Since it's a desktop app, there is no online demo.",
+    date: '6 February 2021'
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
