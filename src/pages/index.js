@@ -16,6 +16,7 @@ import React360Img from '../images/react-360-logo.png';
 import GoogleDocsImg from '../images/120618_GoogleDocs-Blog.png';
 import MusicPlayerImg from '../images/VectorPortal-Winged-Music-Icon.jpg';
 import TensorTradeImg from '../images/tensortrade_algorithm.png';
+import CoinMarketCapImg from '../images/coinmarketcap_logo.png';
 
 // styles
 const pageStyles = {
@@ -165,6 +166,14 @@ const appList = [
     thumbnail: TensorTradeImg,
     title: 'TensorTrade - Reinforcement Learning Trading Algorithm',
     description: "Forked tutorial & used Docker to build/run TensorTrade script - script used Ray with TensorTrade (TT) in order to create a profitable algorithm on a predictable sine curve. No online demo included",
+    date: '7 February 2021'
+  },
+  {
+    link: 'https://streamlit-crypto-price.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/streamlit_freecodecamp',
+    thumbnail: CoinMarketCapImg,
+    title: 'Current Crypto Price with Streamlit',
+    description: "Streamlit enables to quickly build a Python web UI (as opposed to Flask which needs templates). Uses Beautiful Soup to scrape https://coinmarketcap.com and load into Pandas dataframe. Streamlit UI that applies filters on dataframe (Streamlit also enables downloading).",
     date: '7 February 2021'
   },
   {
