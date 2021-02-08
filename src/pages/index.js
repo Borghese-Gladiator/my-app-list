@@ -54,6 +54,13 @@ const cardContainerStyle = {
   flexWrap: 'wrap'
 }
 
+function formatDate(date) {
+  const ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(date);
+  const mo = new Intl.DateTimeFormat('en', { month: 'short' }).format(date);
+  const da = new Intl.DateTimeFormat('en', { day: '2-digit' }).format(date);
+  return `${da}-${mo}-${ye}`;
+}
+
 // data
 const appList = [
   {
@@ -62,7 +69,8 @@ const appList = [
     thumbnail: ToDoImg,
     title: 'MDN React To Do List',
     description: "Followed MDN's React To Do List tutorial to create a list of to do items with editing & filtering.",
-    date: '16 January 2021'
+    date: '16 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 16))
   },
   {
     link: 'https://mern-app-template-000.herokuapp.com/',
@@ -70,7 +78,8 @@ const appList = [
     thumbnail: MERNImg,
     title: 'MERN App Template',
     description: `Forked mern-material-demo - rewrote to deploy to Heroku (build ES6 backend & build React frontend), rewrote signin/signup pages, added mobile support, upgraded package versions: Babel (5.x ⟶ 7.x), Material UI (3.x ⟶ 4.x), React Router (4.x ⟶ 5.x)`,
-    date: '18 January 2021'
+    date: '18 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 18))
   },
   {
     link: 'https://cool-components.netlify.app/',
@@ -78,7 +87,8 @@ const appList = [
     thumbnail: HTMLCSSJSImg,
     title: 'Cool Components',
     description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS). eg: Particle Smoke Animation, Tag Cloud, Play/Pause Animations",
-    date: '20 January 2021'
+    date: '20 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 20))
   },
   {
     link: 'https://tutorial-pushercoins.herokuapp.com/',
@@ -86,7 +96,8 @@ const appList = [
     thumbnail: PWAImg,
     title: 'React Realtime PWA',
     description: "Progressive Web App (PWA) with lighthouse audit & bundle analyzer scripts. React UI to track cryptocurrency prices with Pusher in realtime",
-    date: '23 January 2021'
+    date: '23 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 23))
   },
   {
     link: 'https://react-shopping-cart-0791.netlify.app/',
@@ -94,7 +105,8 @@ const appList = [
     thumbnail: ECommerceLogoImg,
     title: 'React Shopping Cart',
     description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
-    date: '24 January 2021'
+    date: '24 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 24))
   },
   {
     link: 'https://react-error-boundary-0791.netlify.app/',
@@ -102,7 +114,8 @@ const appList = [
     thumbnail: ErrorReactImg,
     title: 'React Error Boundaries',
     description: "Tried out error boundaries with code from official React docs (& Dan Abramov's codepen) and added a custom reload component.",
-    date: '25 January 2021'
+    date: '25 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 25))
   },
   {
     link: 'https://react-concurrent-example-0791.netlify.app/',
@@ -110,7 +123,8 @@ const appList = [
     thumbnail: ReactConcurrentImg,
     title: 'React Concurrent Mode',
     description: "Used React.lazy() and Suspense to lazy load components. Used React error boundaries to catch if loading failed.",
-    date: '25 January 2021'
+    date: '25 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 25))
   },
   {
     link: 'https://simple-keras-rest-api.herokuapp.com/',
@@ -118,7 +132,8 @@ const appList = [
     thumbnail: TensorflowKerasLogoImg,
     title: 'Keras REST API',
     description: "Forked example & rewrote to work on Heroku. Flask app exposes pre-trained Keras model for image classification to API requests (given image - returns labels classifying the image)",
-    date: '26 January 2021'
+    date: '26 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 26))
   },
   {
     link: 'https://two-fa-speakeasy-example.herokuapp.com/api',
@@ -126,7 +141,8 @@ const appList = [
     thumbnail: TwoFAImg,
     title: 'Implement 2FA',
     description: "Forked LogRocket example & rewrote to work on Heroku. Node.js app that authenticates registered users with 2FA app like Google Authenticator (uses JSON file rather than proper database)",
-    date: '27 January 2021'
+    date: '27 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 27))
   },
   {
     link: 'https://first-vue-app-0791.netlify.app/',
@@ -134,7 +150,8 @@ const appList = [
     thumbnail: VueLogoImg,
     title: 'First Vue.js App',
     description: "Used @vue/cli to generate Vue project & push to netlify. Note that vue-cli (2.X) does not build with index.html & doesn't deploy correctly!",
-    date: '27 January 2021'
+    date: '27 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 27))
   },
   {
     link: 'https://first-react-360-0791.netlify.app/',
@@ -142,7 +159,8 @@ const appList = [
     thumbnail: React360Img,
     title: 'First React 360 App',
     description: "I fixed build node v12.11.0 vs v12.10.0 issue and deployed to Netlify a sample VR project with React. React 360 creates VR framework for the creation of interactive 360 experiences that run in your web browser.",
-    date: '28 January 2021'
+    date: '28 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 28))
   },
   {
     link: 'https://google-doc-editor-clone.netlify.app/editor.html',
@@ -150,7 +168,8 @@ const appList = [
     thumbnail: GoogleDocsImg,
     title: 'Google Doc Clone',
     description: "I forked & learned how to dynamically apply CSS onto text and div elements with JavaScript. HTML, CSS, and JavaScript for frontend and I also set up a Firebase backend for this app to store.",
-    date: '5 February 2021'
+    date: '5 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 5))
   },
   {
     link: 'https://github.com/Borghese-Gladiator/python-mp3-player',
@@ -158,7 +177,8 @@ const appList = [
     thumbnail: MusicPlayerImg,
     title: 'Python MP3 Player - Windows app',
     description: "I wrote a Python desktop with tkinter for GUI & pygame to manage audio commands & cx_Freeze to create the MSI installer. Since it's a desktop app, there is no online demo.",
-    date: '6 February 2021'
+    date: '6 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 6))
   },
   {
     link: 'https://github.com/Borghese-Gladiator/simple-sine-curve/tree/main',
@@ -166,7 +186,8 @@ const appList = [
     thumbnail: TensorTradeImg,
     title: 'TensorTrade - Reinforcement Learning Trading Algorithm',
     description: "Forked tutorial & used Docker to build/run TensorTrade script - script used Ray with TensorTrade (TT) in order to create a profitable algorithm on a predictable sine curve. No online demo included",
-    date: '7 February 2021'
+    date: '7 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 7))
   },
   {
     link: 'https://streamlit-crypto-price.herokuapp.com/',
@@ -174,7 +195,8 @@ const appList = [
     thumbnail: CoinMarketCapImg,
     title: 'Current Crypto Price with Streamlit',
     description: "Streamlit enables to quickly build a Python web UI (as opposed to Flask which needs templates). Uses Beautiful Soup to scrape https://coinmarketcap.com and load into Pandas dataframe. Streamlit UI that applies filters on dataframe (Streamlit also enables downloading).",
-    date: '7 February 2021'
+    date: '7 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 7))
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
@@ -182,7 +204,8 @@ const appList = [
     thumbnail: FlaskTutorialImg,
     title: 'NLTK Text Processing',
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    date: '25 January 2021'
+    date: '25 January 2021',
+    lastUpdated: formatDate(new Date(2021, 0, 25))
   },
 ]
 
@@ -211,16 +234,18 @@ const IndexPage = () => {
       </div>
       <div style={cardContainerStyle}>
         {
-          appList.map((appObj) => {
-            const { link, github_link, thumbnail, title, description, date } = appObj;
+          appList.map((appObj, idx) => {
+            const { link, github_link, thumbnail, title, description, date, lastUpdated } = appObj;
             return (
               <Card
+                key={idx}
                 link={link}
                 github_link={github_link}
                 thumbnail={thumbnail}
                 title={title}
                 description={description}
                 date={date}
+                lastUpdated={lastUpdated}
               />
             );
           })

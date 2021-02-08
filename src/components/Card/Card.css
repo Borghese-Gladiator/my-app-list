@@ -96,7 +96,7 @@ h4 a {
   box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.19);
   border-radius: 4px;
   font-size: 16px;
-  margin: 4px 2px;
+  height: 80%;
 }
 
 .card-link-btn:hover {
@@ -109,4 +109,9 @@ h4 a {
 .space-between-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+#label-last-updated {
+  font-size: 0.8em;
 }
