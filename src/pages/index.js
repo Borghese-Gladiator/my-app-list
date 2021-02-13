@@ -223,7 +223,7 @@ const appList = [
     github_link: 'https://github.com/Borghese-Gladiator/phaser-bouncing-ball',
     thumbnail: BouncingBallImg,
     title: 'Phaser3 Bouncing Ball Game',
-    description: "The Phaser3 physics engine is super great to use to create browser games and works smoothly when deploying since it's just JavaScript. Followed tutorial & fixed up some code, but works very smoothly.",
+    description: "The Phaser3 physics engine is super great to use to create browser games and works smoothly when deploying since it's just JavaScript. Followed tutorial & fixed up some code, but Phaser3 works very smoothly.",
     date: '12 February 2021',
     dateCreated: new Date(2021, 1, 12),
     dateLastUpdated: new Date(2021, 1, 12)
