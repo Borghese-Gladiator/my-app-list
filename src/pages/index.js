@@ -17,6 +17,7 @@ import GoogleDocsImg from '../images/120618_GoogleDocs-Blog.png';
 import MusicPlayerImg from '../images/VectorPortal-Winged-Music-Icon.jpg';
 import TensorTradeImg from '../images/tensortrade_algorithm.png';
 import CoinMarketCapImg from '../images/coinmarketcap_logo.png';
+import BouncingBallImg from '../images/Bouncing_Ball_Game.png';
 
 // styles
 const pageStyles = {
@@ -195,8 +196,18 @@ const appList = [
     thumbnail: CoinMarketCapImg,
     title: 'Current Crypto Price with Streamlit',
     description: "Streamlit enables to quickly build a Python web UI (as opposed to Flask which needs templates). Uses Beautiful Soup to scrape https://coinmarketcap.com and load into Pandas dataframe. Streamlit UI that applies filters on dataframe (Streamlit also enables downloading).",
-    date: '7 February 2021',
-    lastUpdated: formatDate(new Date(2021, 1, 7))
+    date: '8 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 8))
+  },
+  
+  {
+    link: 'https://phaser-bouncing-ball.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/phaser-bouncing-ball',
+    thumbnail: BouncingBallImg,
+    title: 'Phaser3 Bouncing Ball Game',
+    description: "The Phaser3 physics engine is super great to use to create browser games and works smoothly when deploying since it's just JavaScript. Followed tutorial & fixed up some code, but works very smoothly.",
+    date: '12 February 2021',
+    lastUpdated: formatDate(new Date(2021, 1, 12))
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
