@@ -217,7 +217,6 @@ const appList = [
     dateCreated: new Date(2021, 1, 8),
     dateLastUpdated: new Date(2021, 1, 8)
   },
-  
   {
     link: 'https://phaser-bouncing-ball.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/phaser-bouncing-ball',
@@ -227,6 +226,28 @@ const appList = [
     date: '12 February 2021',
     dateCreated: new Date(2021, 1, 12),
     dateLastUpdated: new Date(2021, 1, 12)
+  },
+  
+  {
+    link: 'https://first-vite-project.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-vite-project',
+    thumbnail: BouncingBallImg,
+    title: 'First Vite App',
+    description: "Vite is a frontend build tool, a replacement for Webpack. Vite has seamless integration with Vue and has SUPER fast HMR (Hot Module Replacement), especially when compared with webpack or webpack-dev-server (uses native ES modules to get this speed). Deploying to Netlify was super easy and required no extra steps.",
+    date: '13 February 2021',
+    dateCreated: new Date(2021, 1, 13),
+    dateLastUpdated: new Date(2021, 1, 13)
+  },
+  
+  {
+    link: 'https://first-snowpack-app.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-snowpack-app',
+    thumbnail: BouncingBallImg,
+    title: 'First Snowpack App',
+    description: "Snowpack is a frontend build tool, replacement for Webpack. AMAZING number of templates available at https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli and wider support than Vite with community templates as well.",
+    date: '13 February 2021',
+    dateCreated: new Date(2021, 1, 13),
+    dateLastUpdated: new Date(2021, 1, 13)
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
