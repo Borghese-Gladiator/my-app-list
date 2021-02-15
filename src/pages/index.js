@@ -255,7 +255,7 @@ const appList = [
     github_link: 'https://github.com/Borghese-Gladiator/google-homepage-clone',
     thumbnail: GoogleCloneImg,
     title: 'Google Homepage Clone',
-    description: "Used HTML Templates, CSS Selectors, and Vanilla JS to reimplement the Google Homepage. Did this practice to brush up on basics as suggested by tutorial site shown on GitHub.",
+    description: "Used HTML Templates, CSS Selectors, Vanilla JS, and Font Awesome 4 (from Bootstrap CDN) to reimplement the Google Homepage. Did this practice to brush up on basics as suggested by tutorial site shown on GitHub.",
     date: '14 February 2021',
     dateCreated: new Date(2021, 1, 14),
     dateLastUpdated: new Date(2021, 1, 14)
