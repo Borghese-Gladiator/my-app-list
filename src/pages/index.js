@@ -102,7 +102,7 @@ const apps = [
   },
   {
     link: 'https://cool-components.netlify.app/',
-    github_link: 'https://github.com/Borghese-Gladiator/Cool_Components',
+    github_link: 'https://github.com/Borghese-Gladiator/Cool-Components',
     thumbnail: HTMLCSSJSImg,
     title: 'Cool Components',
     description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS). eg: Particle Smoke Animation, Tag Cloud, Play/Pause Animations",
