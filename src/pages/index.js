@@ -268,6 +268,7 @@ const apps = [
     dateCreated: new Date(2021, 1, 14),
     dateLastUpdated: new Date(2021, 1, 14)
   },
+  /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
@@ -278,6 +279,7 @@ const apps = [
     dateCreated: new Date(2021, 0, 25),
     dateLastUpdated: new Date(2021, 0, 25)
   },
+  */
 ]
 
 const SORT_MAP = {
