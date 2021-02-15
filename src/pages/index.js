@@ -20,6 +20,7 @@ import CoinMarketCapImg from '../images/coinmarketcap_logo.png';
 import BouncingBallImg from '../images/Bouncing_Ball_Game.png';
 import ViteLogoImg from '../images/what-is-vue-vite.jpeg';
 import SnowpackLogoImg from '../images/snowpack_logo.jpg';
+import GoogleCloneImg from '../images/Google_Homepage_Clone_Screenshot.png';
 
 // styles
 const pageStyles = {
@@ -229,7 +230,6 @@ const appList = [
     dateCreated: new Date(2021, 1, 12),
     dateLastUpdated: new Date(2021, 1, 12)
   },
-  
   {
     link: 'https://first-vite-project.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/first-vite-project',
@@ -240,7 +240,6 @@ const appList = [
     dateCreated: new Date(2021, 1, 13),
     dateLastUpdated: new Date(2021, 1, 13)
   },
-  
   {
     link: 'https://first-snowpack-app.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/first-snowpack-app',
@@ -250,6 +249,16 @@ const appList = [
     date: '13 February 2021',
     dateCreated: new Date(2021, 1, 13),
     dateLastUpdated: new Date(2021, 1, 13)
+  },
+  {
+    link: 'https://google-homepage-clone-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/google-homepage-clone',
+    thumbnail: GoogleCloneImg,
+    title: 'Google Homepage Clone',
+    description: "Used HTML Templates, CSS Selectors, and Vanilla JS to reimplement the Google Homepage. Did this practice to brush up on basics as suggested by tutorial site shown on GitHub.",
+    date: '14 February 2021',
+    dateCreated: new Date(2021, 1, 14),
+    dateLastUpdated: new Date(2021, 1, 14)
   },
   {
     link: 'https://python-text-processing.herokuapp.com/',
