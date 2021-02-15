@@ -1,6 +1,9 @@
-import * as React from "react";
+import React, { useState } from "react";
+// custom components
 import Card from '../components/Card';
+import SortButton from '../components/SortButton';
 
+// image assets
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
 import MERNImg from '../images/mern-logos.png';
 import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
@@ -58,6 +61,11 @@ const cardContainerStyle = {
   flexWrap: 'wrap'
 }
 
+const sortContainerStyle = {
+  display: 'flex',
+  justifyContent: 'center',
+}
+
 function formatDateCreated(date) {
   const ye = new Intl.DateTimeFormat('en', { year: 'numeric' }).format(date);
   const mo = new Intl.DateTimeFormat('en', { month: 'long' }).format(date);
@@ -73,7 +81,7 @@ function formatDateUpdated(date) {
 }
 
 // data
-const appList = [
+const apps = [
   {
     link: 'https://mdn-todo-react.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/todo-react',
@@ -272,8 +280,48 @@ const appList = [
   },
 ]
 
+const SORT_MAP = {
+  Recent: ((a, b) => b.dateCreated - a.dateCreated),
+  Oldest: ((a, b) => a.dateCreated - b.dateCreated)
+//  Alphabetical: ((a, b) => a.title.localeCompare(b.title)),
+//  ReverseAlphabetical: ((a, b) => b.title.localeCompare(a.title))
+};
+
+const SORT_NAMES = Object.keys(SORT_MAP);
+
 // markup
 const IndexPage = () => {
+  const [sort, setSort] = useState('Recent');
+
+  const sortList = SORT_NAMES.map(name => (
+    <SortButton
+      key={name}
+      name={name}
+      isPressed={name === sort}
+      setFilter={setSort}
+    />
+  ));
+
+  const appList = apps
+  .sort(SORT_MAP[sort])
+  .map((appObj, idx) => {
+    const { link, github_link, thumbnail, title, description, dateCreated, dateLastUpdated } = appObj;
+    return (
+      <Card
+        key={idx}
+        link={link}
+        github_link={github_link}
+        thumbnail={thumbnail}
+        title={title}
+        description={description}
+        date={formatDateCreated(dateCreated)}
+        lastUpdated={formatDateUpdated(dateLastUpdated)}
+      />
+    );
+  })
+
+  const onChange = (item, name) => { console.log(item, name); }
+  
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
@@ -285,9 +333,9 @@ const IndexPage = () => {
           </span>
         </h1>
         <p>
-          <span>Track apps I made using tutorials </span>
+          <span>Track apps I've been making</span>
           <span role="img" aria-label="Sunglasses smiley emoji">
-            😎
+            {' 😎 '}
           </span>
           <code style={codeStyles}>Made with GatsbyJS</code>
         </p>
@@ -295,24 +343,11 @@ const IndexPage = () => {
           <span>Click to see deployed app</span>
         </p>
       </div>
+      <div style={sortContainerStyle}>
+        {sortList}
+      </div>
       <div style={cardContainerStyle}>
-        {
-          appList.map((appObj, idx) => {
-            const { link, github_link, thumbnail, title, description, dateCreated, dateLastUpdated } = appObj;
-            return (
-              <Card
-                key={idx}
-                link={link}
-                github_link={github_link}
-                thumbnail={thumbnail}
-                title={title}
-                description={description}
-                date={formatDateCreated(dateCreated)}
-                lastUpdated={formatDateUpdated(dateLastUpdated)}
-              />
-            );
-          })
-        }
+        {appList}
       </div>
     </main>
   )
