@@ -19,7 +19,7 @@ import TensorTradeImg from '../images/tensortrade_algorithm.png';
 import CoinMarketCapImg from '../images/coinmarketcap_logo.png';
 import BouncingBallImg from '../images/Bouncing_Ball_Game.png';
 import ViteLogoImg from '../images/what-is-vue-vite.jpeg';
-import SnowpackLogoImg from '..images/snowpack_logo.jpg';
+import SnowpackLogoImg from '../images/snowpack_logo.jpg';
 
 // styles
 const pageStyles = {
