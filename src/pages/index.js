@@ -24,6 +24,7 @@ import BouncingBallImg from '../images/Bouncing_Ball_Game.png';
 import ViteLogoImg from '../images/what-is-vue-vite.jpeg';
 import SnowpackLogoImg from '../images/snowpack_logo.jpg';
 import GoogleCloneImg from '../images/Google_Homepage_Clone_Screenshot.png';
+import NextJSImg from '../images/nextjs.png';
 
 // styles
 const pageStyles = {
@@ -267,6 +268,16 @@ const apps = [
     date: '14 February 2021',
     dateCreated: new Date(2021, 1, 14),
     dateLastUpdated: new Date(2021, 1, 14)
+  },
+  {
+    link: 'https://first-nextjs-blog-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-nextjs-blog',
+    thumbnail: NextJSImg,
+    title: 'First NextJS App',
+    description: "NextJS is a React framework with page-based routing, pre-rendering, SSG, SSR, and API endpoints (https://nextjs.org/learn/basics/create-nextjs-app). Since React is just a library, you need to bundle with webpack and transform with Babel, so NextJS standardizes solutions to those problems as a framework. FURTHERMORE, deploying to Netlify was not hard, though documentation was kind of lacking since official docs did not work.",
+    date: '16 February 2021',
+    dateCreated: new Date(2021, 1, 16),
+    dateLastUpdated: new Date(2021, 1, 16)
   },
   /*
   {
