@@ -25,6 +25,7 @@ import ViteLogoImg from '../images/what-is-vue-vite.jpeg';
 import SnowpackLogoImg from '../images/snowpack_logo.jpg';
 import GoogleCloneImg from '../images/Google_Homepage_Clone_Screenshot.png';
 import NextJSImg from '../images/nextjs.png';
+import WebRTCLogoImg from '../images/0370-01_webrtc_logo_thumbnail.png';
 
 // styles
 const pageStyles = {
@@ -278,6 +279,16 @@ const apps = [
     date: '16 February 2021',
     dateCreated: new Date(2021, 1, 16),
     dateLastUpdated: new Date(2021, 1, 16)
+  },
+  {
+    link: 'https://webrtc-video-call-0791.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/videoChat-WebFrontend',
+    thumbnail: WebRTCLogoImg,
+    title: 'WebRTC Video Call',
+    description: "Forked tutorial and cemented WebRTC signal RTCPeerConnection understanding and how two users can agree to call. Added ICE Candidate Trickling with Xirsys, TURN server cloud provider.",
+    date: '18 February 2021',
+    dateCreated: new Date(2021, 1, 18),
+    dateLastUpdated: new Date(2021, 1, 18)
   },
   /*
   {
