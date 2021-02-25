@@ -29,6 +29,7 @@ import GoogleCloneImg from '../images/Google_Homepage_Clone_Screenshot.png';
 import NextJSImg from '../images/nextjs.png';
 import WebRTCLogoImg from '../images/0370-01_webrtc_logo_thumbnail.png';
 import MusicVisualizationImg from '../images/music-visualization.jpg';
+import InfiniteScrollImg from '../images/infinite-scroll-shift.png';
 
 // styles
 const pageStyles = {
@@ -300,6 +301,16 @@ const apps = [
     title: 'Custom Music Lists',
     description: "Wrote from scratch list of song lists. Wrote custom InlineEdit titles, DropdownMenu delete function, ToDo items added on enter, Upload song lists from text file, and Download song lists as a text file. Used useLocalStorage hook to prevent sync issues & save to cache.",
     date: '23 February 2021',
+    dateCreated: new Date(2021, 1, 23),
+    dateLastUpdated: new Date(2021, 1, 25)
+  },
+  {
+    link: 'https://react-infinite-scroll-0791.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-infinite-scroll',
+    thumbnail: InfiniteScrollImg,
+    title: 'React Infinite Scroll',
+    description: "Followed four different tutorials to figure out React Infinite Scroll best practices. In general, make sure you lazy load your images or there will serious performance issues and loading icons make it feel like loadtime is longer.",
+    date: '25 February 2021',
     dateCreated: new Date(2021, 1, 23),
     dateLastUpdated: new Date(2021, 1, 25)
   },
