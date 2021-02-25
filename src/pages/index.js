@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+// package to add meta
+import { Helmet } from "react-helmet";
 // custom components
 import Card from '../components/Card';
 import SortButton from '../components/SortButton';
@@ -359,7 +361,10 @@ const IndexPage = () => {
   
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
+      <Helmet>
+        <title>App List - Hosted on Netlify</title>
+        <meta name="description" content="Track new tech I have learned and tried to continuously improve. This static Gatsby site on Netlify compiles all of Borghese-Gladiator's latest projects to show off to friends and self."></meta>
+      </Helmet>
       <div style={rootStyles}>
         <h1 style={headingStyles}>
           <span>Borghese-Gladiator{" "}<span style={headingAccentStyles}>App List</span></span>
