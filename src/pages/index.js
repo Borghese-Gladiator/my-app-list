@@ -301,7 +301,7 @@ const apps = [
     description: "Wrote from scratch list of song lists. Wrote custom InlineEdit titles, DropdownMenu delete function, ToDo items added on enter, Upload song lists from text file, and Download song lists as a text file. Used useLocalStorage hook to prevent sync issues & save to cache.",
     date: '23 February 2021',
     dateCreated: new Date(2021, 1, 23),
-    dateLastUpdated: new Date(2021, 1, 23)
+    dateLastUpdated: new Date(2021, 1, 25)
   },
   /*
   {
