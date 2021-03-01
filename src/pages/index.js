@@ -299,10 +299,10 @@ const apps = [
     github_link: 'https://github.com/Borghese-Gladiator/music-list',
     thumbnail: MusicVisualizationImg,
     title: 'Custom Music Lists',
-    description: "Wrote from scratch list of song lists. Wrote custom InlineEdit titles, DropdownMenu delete function, ToDo items added on enter, Upload song lists from text file, and Download song lists as a text file. Used useLocalStorage hook to prevent sync issues & save to cache.",
+    description: "Wrote from scratch list of song lists. Wrote custom InlineEdit titles, DropdownMenu delete function, ToDo items added on enter, Upload song lists from text file, and Download song lists as a text file. Used useLocalStorage hook to prevent sync issues & save to cache. Updated to Masonry layout with CSS media queries & grid-columns.",
     date: '23 February 2021',
     dateCreated: new Date(2021, 1, 23),
-    dateLastUpdated: new Date(2021, 1, 25)
+    dateLastUpdated: new Date(2021, 1, 28)
   },
   {
     link: 'https://react-infinite-scroll-0791.netlify.app/',
