@@ -30,6 +30,7 @@ import NextJSImg from '../images/nextjs.png';
 import WebRTCLogoImg from '../images/0370-01_webrtc_logo_thumbnail.png';
 import MusicVisualizationImg from '../images/music-visualization.jpg';
 import InfiniteScrollImg from '../images/infinite-scroll-shift.png';
+import OnionLogoImg from '../images/the-onion-logo.jpg';
 
 // styles
 const pageStyles = {
@@ -314,6 +315,16 @@ const apps = [
     dateCreated: new Date(2021, 1, 23),
     dateLastUpdated: new Date(2021, 1, 25)
   },
+  {
+    link: 'https://django-news-aggregator-0791.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/django-news-aggregator',
+    thumbnail: OnionLogoImg,
+    title: 'Django News Aggregator',
+    description: "Followed tutorial for simple news aggregator. Scrapes Onion website with BeautifulSoup4 and displays with Django HTML template. I configured and deployed the Django to Heroku (first time!).",
+    date: '2 March 2021',
+    dateCreated: new Date(2021, 2, 2),
+    dateLastUpdated: new Date(2021, 2, 2)
+  },
   /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
@@ -367,8 +378,6 @@ const IndexPage = () => {
       />
     );
   })
-
-  const onChange = (item, name) => { console.log(item, name); }
   
   return (
     <main style={pageStyles}>
