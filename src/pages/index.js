@@ -31,6 +31,7 @@ import WebRTCLogoImg from '../images/0370-01_webrtc_logo_thumbnail.png';
 import MusicVisualizationImg from '../images/music-visualization.jpg';
 import InfiniteScrollImg from '../images/infinite-scroll-shift.png';
 import OnionLogoImg from '../images/the-onion-logo.jpg';
+import DoczLogoImg from '../images/docz_logo.png';
 
 // styles
 const pageStyles = {
@@ -324,6 +325,16 @@ const apps = [
     date: '2 March 2021',
     dateCreated: new Date(2021, 2, 2),
     dateLastUpdated: new Date(2021, 2, 2)
+  },
+  {
+    link: 'https://docz-mdx-documentation.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-docz-site',
+    thumbnail: DoczLogoImg,
+    title: 'First Docz Documentation Site',
+    description: "Docz simplifies writing documentation sites for your React components - it makes a route at each MDX file (MDX enables rendering a React component in markdown files). Learned about Docz from article in GitHub README and works well! (npx create-docz-app and start editing MDX files)",
+    date: '3 March 2021',
+    dateCreated: new Date(2021, 2, 3),
+    dateLastUpdated: new Date(2021, 2, 3)
   },
   /*
   {
