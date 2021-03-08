@@ -32,6 +32,7 @@ import MusicVisualizationImg from '../images/music-visualization.jpg';
 import InfiniteScrollImg from '../images/infinite-scroll-shift.png';
 import OnionLogoImg from '../images/the-onion-logo.jpg';
 import DoczLogoImg from '../images/docz_logo.png';
+import NetlifyCMSLogoImg from '../images/post-netlifycms-1200x630.jpg';
 
 // styles
 const pageStyles = {
@@ -335,6 +336,16 @@ const apps = [
     date: '3 March 2021',
     dateCreated: new Date(2021, 2, 3),
     dateLastUpdated: new Date(2021, 2, 3)
+  },
+  {
+    link: 'https://first-gatsby-headless-cms.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/netlify-cms-gatsby-1',
+    thumbnail: NetlifyCMSLogoImg,
+    title: 'Headless Netlify CMS + GatsbyJS',
+    description: "Initialized Gatsby blog site and added Headless CMS, so users are able to create markdown files through a Netlify UI at the /admin route. Used tutorial to add gatsby/netlify plugins and adjust change createPost schema to have tags property: https://blog.bitsrc.io/use-netlify-cms-with-gatsby-blogs-8bb73ab2e0cf ",
+    date: '6 March 2021',
+    dateCreated: new Date(2021, 2, 6),
+    dateLastUpdated: new Date(2021, 2, 6)
   },
   /*
   {
