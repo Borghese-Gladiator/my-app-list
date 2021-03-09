@@ -352,7 +352,7 @@ const apps = [
     link: 'https://pwa-react-weight-converter.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/pwa-react-weight-converter',
     thumbnail: PWALogoImg,
-    title: 'First React + PWA',
+    title: 'First PWA (React)',
     description: "Built weight converter app by using HTML/CSS/Vanilla JS code from tutorial in GitHub repo link and putting into create-react-app React template.",
     date: '8 March 2021',
     dateCreated: new Date(2021, 2, 8),
