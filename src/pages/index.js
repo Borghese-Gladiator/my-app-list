@@ -33,6 +33,7 @@ import InfiniteScrollImg from '../images/infinite-scroll-shift.png';
 import OnionLogoImg from '../images/the-onion-logo.jpg';
 import DoczLogoImg from '../images/docz_logo.png';
 import NetlifyCMSLogoImg from '../images/post-netlifycms-1200x630.jpg';
+import PWALogoImg from '../images/pwa_logo.png';
 
 // styles
 const pageStyles = {
@@ -346,6 +347,16 @@ const apps = [
     date: '6 March 2021',
     dateCreated: new Date(2021, 2, 6),
     dateLastUpdated: new Date(2021, 2, 6)
+  },
+  {
+    link: 'https://pwa-react-weight-converter.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/pwa-react-weight-converter',
+    thumbnail: PWALogoImg,
+    title: 'First React + PWA',
+    description: "Built weight converter app by using HTML/CSS/Vanilla JS code from tutorial in GitHub repo link and putting into create-react-app React template.",
+    date: '8 March 2021',
+    dateCreated: new Date(2021, 2, 8),
+    dateLastUpdated: new Date(2021, 2, 8)
   },
   /*
   {
