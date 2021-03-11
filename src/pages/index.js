@@ -34,6 +34,7 @@ import OnionLogoImg from '../images/the-onion-logo.jpg';
 import DoczLogoImg from '../images/docz_logo.png';
 import NetlifyCMSLogoImg from '../images/post-netlifycms-1200x630.jpg';
 import PWALogoImg from '../images/pwa_logo.png';
+import NoteTakingImg from '../images/note-taking-1400x1050.png';
 
 // styles
 const pageStyles = {
@@ -355,6 +356,16 @@ const apps = [
     title: 'First PWA (React)',
     description: "Built weight converter app by using HTML/CSS/Vanilla JS code from tutorial in GitHub repo link and putting into create-react-app React template.",
     date: '8 March 2021',
+    dateCreated: new Date(2021, 2, 8),
+    dateLastUpdated: new Date(2021, 2, 8)
+  },
+  {
+    link: 'https://contact-list-notes.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/contact-notes-list',
+    thumbnail: NoteTakingImg,
+    title: 'Custom Contact Notes',
+    description: "Built off of Custom Music Lists + Bootstrap 4 styling - also store dates for every conversation (each time new item is created). Can save them as text files & send them to myself on Discord to get cloud storage - though version problems.",
+    date: '10 March 2021',
     dateCreated: new Date(2021, 2, 8),
     dateLastUpdated: new Date(2021, 2, 8)
   },
