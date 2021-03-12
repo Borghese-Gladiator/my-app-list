@@ -35,6 +35,7 @@ import DoczLogoImg from '../images/docz_logo.png';
 import NetlifyCMSLogoImg from '../images/post-netlifycms-1200x630.jpg';
 import PWALogoImg from '../images/pwa_logo.png';
 import NoteTakingImg from '../images/note-taking-1400x1050.png';
+import SocketIOImg from '../images/socket-io.png';
 
 // styles
 const pageStyles = {
@@ -368,6 +369,16 @@ const apps = [
     date: '10 March 2021',
     dateCreated: new Date(2021, 2, 8),
     dateLastUpdated: new Date(2021, 2, 8)
+  },
+  {
+    link: 'https://nextjs-nodejs-chatroom.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/nextjs-nodejs-chatroom',
+    thumbnail: SocketIOImg,
+    title: 'Next.js + Node.js + SocketIO Chatroom',
+    description: "Chatroom showing connected users and chat from those users. Built using multiple tutorials described in README.md. Deployed Next.js frontend to Netlify and Node.js backend to Heroku. Connected server SocketIO to client with SocketIO-Client.",
+    date: '12 March 2021',
+    dateCreated: new Date(2021, 2, 12),
+    dateLastUpdated: new Date(2021, 2, 12)
   },
   /*
   {
