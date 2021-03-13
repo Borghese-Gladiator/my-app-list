@@ -36,6 +36,7 @@ import NetlifyCMSLogoImg from '../images/post-netlifycms-1200x630.jpg';
 import PWALogoImg from '../images/pwa_logo.png';
 import NoteTakingImg from '../images/note-taking-1400x1050.png';
 import SocketIOImg from '../images/socket-io.png';
+import MicrophoneSpeakImg from '../images/microphone-speak.png';
 
 // styles
 const pageStyles = {
@@ -380,6 +381,18 @@ const apps = [
     dateCreated: new Date(2021, 2, 12),
     dateLastUpdated: new Date(2021, 2, 12)
   },
+
+  {
+    link: 'https://react-speech-recognition.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-react-speech-recognition',
+    thumbnail: MicrophoneSpeakImg,
+    title: 'React Speech Recognition',
+    description: "Used hook from react-speech-recognition library to convert speech to text in the browser (which uses the broweser's Web Speech API). Built off of LogRocket Blog tutorial listed in README.md",
+    date: '13 March 2021',
+    dateCreated: new Date(2021, 2, 13),
+    dateLastUpdated: new Date(2021, 2, 13)
+  },
+  
   /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
