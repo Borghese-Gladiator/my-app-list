@@ -421,9 +421,9 @@ const apps = [
     thumbnail: GitHubActionsDockerLogoImg,
     title: 'Yarn + TypeScript (Built with Docker)',
     description: "Followed tutorial to divide into Yarn packages: common, app, and server - React frontend in app & Express backend in server. Transpiled TypeScript with ESBuild. Used GitHub Actions + Dockerfile to automatatically push to container registry in GitHub Packages & automatically deploy to Heroku using GitHub Action in Marketplace.",
-    date: '26 March 2021',
-    dateCreated: new Date(2021, 2, 26),
-    dateLastUpdated: new Date(2021, 2, 26)
+    date: '27 March 2021',
+    dateCreated: new Date(2021, 2, 27),
+    dateLastUpdated: new Date(2021, 2, 27)
   },
   /*
   {
