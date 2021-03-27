@@ -39,6 +39,7 @@ import SocketIOImg from '../images/socket-io.png';
 import MicrophoneSpeakImg from '../images/microphone-speak.png';
 import OpenCVLogoImg from '../images/opencv_logo.jpg';
 import DLibThumbnailImg from '../images/dlib_article_thumbnail.jpg';
+import GitHubActionsDockerLogoImg from '../images/docker_github_actions.png';
 
 // styles
 const pageStyles = {
@@ -414,7 +415,16 @@ const apps = [
     dateCreated: new Date(2021, 2, 26),
     dateLastUpdated: new Date(2021, 2, 26)
   },
-  
+  {
+    link: 'https://first-yarn-typescript.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
+    thumbnail: GitHubActionsDockerLogoImg,
+    title: 'Yarn + TypeScript (Built with Docker)',
+    description: "Followed tutorial to divide into Yarn packages: common, app, and server - React frontend in app & Express backend in server. Transpiled TypeScript with ESBuild. Used GitHub Actions + Dockerfile to automatatically push to container registry in GitHub Packages & automatically deploy to Heroku using GitHub Action in Marketplace.",
+    date: '26 March 2021',
+    dateCreated: new Date(2021, 2, 26),
+    dateLastUpdated: new Date(2021, 2, 26)
+  },
   /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
