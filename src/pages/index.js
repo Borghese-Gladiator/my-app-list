@@ -38,6 +38,7 @@ import NoteTakingImg from '../images/note-taking-1400x1050.png';
 import SocketIOImg from '../images/socket-io.png';
 import MicrophoneSpeakImg from '../images/microphone-speak.png';
 import OpenCVLogoImg from '../images/opencv_logo.jpg';
+import DLibThumbnailImg from '../images/dlib_article_thumbnail.jpg';
 
 // styles
 const pageStyles = {
@@ -398,11 +399,22 @@ const apps = [
     github_link: 'https://github.com/Borghese-Gladiator/python-qr-code-reader',
     thumbnail: OpenCVLogoImg,
     title: 'OpenCV + pyzbar QR Code Reader',
-    description: "Followed tutorial code to build QR Code Reader. Every second, OpenCV passes the camera frame to pyzbar which scans for a QR Code.",
+    description: "(No Demo - did not write Flask webapp) Followed tutorial code to build QR Code Reader. Every second, OpenCV passes the camera frame to pyzbar which scans for a QR Code.",
     date: '26 March 2021',
     dateCreated: new Date(2021, 2, 26),
     dateLastUpdated: new Date(2021, 2, 26)
   },
+  {
+    link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
+    github_link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
+    thumbnail: DLibThumbnailImg,
+    title: 'First Face Recognition',
+    description: "(No Demo - did not write Flask webapp) Followed tutorial code to use face-recognition library & OpenCV to label faces shown by the camera livefeed given one image to train on.",
+    date: '26 March 2021',
+    dateCreated: new Date(2021, 2, 26),
+    dateLastUpdated: new Date(2021, 2, 26)
+  },
+  
   /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
