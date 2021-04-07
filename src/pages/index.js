@@ -286,7 +286,7 @@ const apps = [
     dateLastUpdated: new Date(2021, 1, 14)
   },
   {
-    link: 'https://first-nextjs-blog-0791.netlify.app/',
+    link: 'https://first-nextjs-app-0791.netlify.app/',
     github_link: 'https://github.com/Borghese-Gladiator/first-nextjs-blog',
     thumbnail: NextJSImg,
     title: 'First NextJS App',
