@@ -42,6 +42,7 @@ import DLibThumbnailImg from '../images/dlib_article_thumbnail.jpg';
 import GitHubActionsDockerLogoImg from '../images/docker_github_actions.png';
 import IotaLogoImg from '../images/iota-logo.jpg';
 import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
+import OpenAPILogoImg from '../images/openapi-whats-new.png';
 
 // styles
 const pageStyles = {
@@ -443,6 +444,16 @@ const apps = [
     thumbnail: VercelLogoImg,
     title: 'Next-Auth Login on Vercel',
     description: "Forked Next-Auth example and learned to use Next-Auth through Providers. You can easily customize your login needs by adding Providers (eg: Google, GitHub, etc.) as needed in api/[...nextauth.js]. Unlike Netlify, Vercel exposes Node.js functions in the API folder as serverless functions, so simple frontend apps can use a basic backend easily where I could expose the JWT & session info as API calls. Vercel's dashboard matches Netlify in ease to use and also sets up Continuous Deployment with my GitHub repo.",
+    date: '7 April 2021',
+    dateCreated: new Date(2021, 3, 7),
+    dateLastUpdated: new Date(2021, 3, 7)
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/express-open-api',
+    github_link: 'https://github.com/Borghese-Gladiator/express-open-api',
+    thumbnail: OpenAPILogoImg,
+    title: 'First OpenAPI (formerly Swagger)',
+    description: "Forked express-open-api after reading article in GitHub README. APIs require frequent updates to code and then documentation and then tests. With an API standardization (like OpenAPI/Swagger), client SDKs, tests, mock servers, and documentation can be auto generated from specifications like seen in the screenshots of the GitHub README (no demo since rather than an app, it's documentation + testing automation).",
     date: '7 April 2021',
     dateCreated: new Date(2021, 3, 7),
     dateLastUpdated: new Date(2021, 3, 7)
