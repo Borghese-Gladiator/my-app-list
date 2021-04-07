@@ -433,9 +433,9 @@ const apps = [
     thumbnail: IotaLogoImg,
     title: 'First IOTA Node',
     description: "Followed tutorial and sent my first transaction (\"hello world\") to an IOTA node in the Tangle. IOTA is a third generation cryptocurrency uses a DAG (the Tangle) and has no blockchain/miners. To do this, every issuer for a transaction must authenticate two other transactions.",
-    date: '27 March 2021',
-    dateCreated: new Date(2021, 2, 27),
-    dateLastUpdated: new Date(2021, 2, 27)
+    date: '31 March 2021',
+    dateCreated: new Date(2021, 2, 31),
+    dateLastUpdated: new Date(2021, 2, 31)
   },
   {
     link: 'https://first-next-auth-nnb1gm76v-borghese-gladiator.vercel.app/',
