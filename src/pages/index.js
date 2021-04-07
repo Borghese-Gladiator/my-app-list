@@ -40,6 +40,7 @@ import MicrophoneSpeakImg from '../images/microphone-speak.png';
 import OpenCVLogoImg from '../images/opencv_logo.jpg';
 import DLibThumbnailImg from '../images/dlib_article_thumbnail.jpg';
 import GitHubActionsDockerLogoImg from '../images/docker_github_actions.png';
+import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
 
 // styles
 const pageStyles = {
@@ -424,6 +425,16 @@ const apps = [
     date: '27 March 2021',
     dateCreated: new Date(2021, 2, 27),
     dateLastUpdated: new Date(2021, 2, 27)
+  },
+  {
+    link: 'https://first-next-auth-nnb1gm76v-borghese-gladiator.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-next-auth',
+    thumbnail: VercelLogoImg,
+    title: 'Next-Auth Login on Vercel',
+    description: "Forked Next-Auth example and learned to use Next-Auth through Providers. You can easily customize your login needs by adding Providers (eg: Google, GitHub, etc.) as needed in api/[...nextauth.js]. Unlike Netlify, Vercel exposes Node.js functions in the API folder as serverless functions, so simple frontend apps can use a basic backend easily where I could expose the JWT & session info as API calls. Vercel's dashboard matches Netlify in ease to use and also sets up Continuous Deployment with my GitHub repo.",
+    date: '7 April 2021',
+    dateCreated: new Date(2021, 3, 7),
+    dateLastUpdated: new Date(2021, 3, 7)
   },
   /*
   {
