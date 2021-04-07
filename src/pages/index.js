@@ -40,6 +40,7 @@ import MicrophoneSpeakImg from '../images/microphone-speak.png';
 import OpenCVLogoImg from '../images/opencv_logo.jpg';
 import DLibThumbnailImg from '../images/dlib_article_thumbnail.jpg';
 import GitHubActionsDockerLogoImg from '../images/docker_github_actions.png';
+import IotaLogoImg from '../images/iota-logo.jpg';
 import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
 
 // styles
@@ -422,6 +423,16 @@ const apps = [
     thumbnail: GitHubActionsDockerLogoImg,
     title: 'Yarn + TypeScript (Built with Docker)',
     description: "Followed tutorial to divide into Yarn packages: common, app, and server - React frontend in app & Express backend in server. Transpiled TypeScript with ESBuild. Used GitHub Actions + Dockerfile to automatatically push to container registry in GitHub Packages & automatically deploy to Heroku using GitHub Action in Marketplace.",
+    date: '27 March 2021',
+    dateCreated: new Date(2021, 2, 27),
+    dateLastUpdated: new Date(2021, 2, 27)
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/first-iota-node',
+    github_link: 'https://github.com/Borghese-Gladiator/first-iota-node',
+    thumbnail: IotaLogoImg,
+    title: 'First IOTA Node',
+    description: "Followed tutorial and sent my first transaction (\"hello world\") to an IOTA node in the Tangle. IOTA is a third generation cryptocurrency uses a DAG (the Tangle) and has no blockchain/miners. To do this, every issuer for a transaction must authenticate two other transactions.",
     date: '27 March 2021',
     dateCreated: new Date(2021, 2, 27),
     dateLastUpdated: new Date(2021, 2, 27)
