@@ -43,6 +43,9 @@ import GitHubActionsDockerLogoImg from '../images/docker_github_actions.png';
 import IotaLogoImg from '../images/iota-logo.jpg';
 import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
 import OpenAPILogoImg from '../images/openapi-whats-new.png';
+import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021.png';
+import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
+import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 
 // styles
 const pageStyles = {
@@ -458,7 +461,37 @@ const apps = [
     dateCreated: new Date(2021, 3, 7),
     dateLastUpdated: new Date(2021, 3, 7)
   },
+  {
+    link: 'https://quirky-edison-90fc05.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/react-tutorial-refresher',
+    thumbnail: CompleteReactTutorialImg,
+    title: 'React Tutorial Refresher',
+    description: "Yesterday, I presented for 320 and did not do a good job conveying React and how to use it. Used tutorial from freecodecamp (linked in GitHub README) to refresh knowledge. Super clean code to present data with TodoList, DeleteTodo, and AddTodo where setState was passed to child components to mutate data. Also used inputRef to clean input after submit. Did another tutorial in this repo to learn Progressive && Responsive Video Loading in React. Used VLC Media Player to create thumbnails and generate 480p && 720p versions of original MP4 video.",
+    date: '14 April 2021',
+    dateCreated: new Date(2021, 3, 14),
+    dateLastUpdated: new Date(2021, 3, 14)
+  },
+  {
+    link: 'https://contact-manager.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/contact-manager',
+    thumbnail: ContactsStockImage,
+    title: 'Next.js Custom Contact List',
+    description: "Quick utility to track when I talked to people and take notes on it. Wrote this since CRM tools were overboard and I couldn't find a small utility. Used custom CSS for all components - Sidebar, LazyBackgroundImage, AbsoluteDropdownMenu, UserTable, etc. All info saved in localStorage (workaround since using Next.js). 140 commits total due to rewrites and bug fixes",
+    date: '27 April 2021',
+    dateCreated: new Date(2021, 3, 27),
+    dateLastUpdated: new Date(2021, 3, 27)
+  },
   /*
+  {
+    link: 'https://www.udemy.com/course/automate/',
+    github_link: 'https://www.udemy.com/course/automate/',
+    thumbnail: AutomateBoringStuffPythonImg,
+    title: 'Automate the Boring Stuff with Python',
+    description: "(Got Free Coupon code on April 4th, 2021). Took Udemy course: Automate the Boring Stuff with Python Programming. Though I'm familiar with Python (list generators, ML packages like numpy), I learned from chapters 10 to 15: Regex, Files, Debugging, Web Scraping, Excel/Word/PDF Documents, and Email. I can incorporate Python scripts into my BAT scrips far more easily now and feel comfortable automating GUI clicks locally.",
+    date: '14 April 2021',
+    dateCreated: new Date(2021, 3, 14),
+    dateLastUpdated: new Date(2021, 3, 14)
+  },
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
