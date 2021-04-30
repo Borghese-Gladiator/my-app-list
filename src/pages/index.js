@@ -46,6 +46,7 @@ import OpenAPILogoImg from '../images/openapi-whats-new.png';
 import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021.png';
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
+import SpamClassifierImage from '../images/spam_classifier.png';
 
 // styles
 const pageStyles = {
@@ -480,6 +481,16 @@ const apps = [
     date: '27 April 2021',
     dateCreated: new Date(2021, 3, 27),
     dateLastUpdated: new Date(2021, 3, 27)
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/spam-classification',
+    github_link: 'https://github.com/Borghese-Gladiator/spam-classification',
+    thumbnail: SpamClassifierImage,
+    title: 'Spam Classification',
+    description: "Trained DecisionTree, GradientBoost, RandomForest classifiers based on extracted text features found in features.py (count of misspelled words, count of known spam phrases, count of exclamation points). Used NLTK library  to find valid words. Loaded CSV from Kaggle dataset. Used JS to scrape a known spam words list from website. Saved best classification model as pickle object. Also, wrote up utilities to tokenize, lemmatize, and remove stop words, however, runtime was FAR too long to be usable.",
+    date: '30 April 2021',
+    dateCreated: new Date(2021, 3, 30),
+    dateLastUpdated: new Date(2021, 3, 30)
   },
   /*
   {
