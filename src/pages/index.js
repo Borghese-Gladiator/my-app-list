@@ -486,7 +486,7 @@ const apps = [
     link: 'https://github.com/Borghese-Gladiator/spam-classification',
     github_link: 'https://github.com/Borghese-Gladiator/spam-classification',
     thumbnail: SpamClassifierImage,
-    title: 'Spam Classification',
+    title: 'Python Spam Classification',
     description: "Trained DecisionTree, GradientBoost, RandomForest classifiers based on extracted text features found in features.py (count of misspelled words, count of known spam phrases, count of exclamation points). Used NLTK library  to find valid words. Loaded CSV from Kaggle dataset. Used JS to scrape a known spam words list from website. Saved best classification model as pickle object. Also, wrote up utilities to tokenize, lemmatize, and remove stop words, however, runtime was FAR too long to be usable.",
     date: '30 April 2021',
     dateCreated: new Date(2021, 3, 30),
