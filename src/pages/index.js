@@ -111,6 +111,8 @@ const apps = [
     thumbnail: ToDoImg,
     title: 'MDN React To Do List',
     description: "Followed MDN's React To Do List tutorial to create a list of to do items with editing & filtering.",
+    keywords: ["Netlify", "React", "Filter"],
+    date: '16 January 2021',
     dateCreated: new Date(2021, 0, 16),
     dateLastUpdated: new Date(2021, 0, 16)
   },
@@ -120,6 +122,8 @@ const apps = [
     thumbnail: MERNImg,
     title: 'MERN App Template',
     description: `Forked mern-material-demo - rewrote to deploy to Heroku (build ES6 backend & build React frontend), rewrote signin/signup pages, added mobile support, upgraded package versions: Babel (5.x ⟶ 7.x), Material UI (3.x ⟶ 4.x), React Router (4.x ⟶ 5.x)`,
+    keywords: ["Heroku", "Node.js", "React"],
+    date: '18 January 2021',
     dateCreated: new Date(2021, 0, 18),
     dateLastUpdated: new Date(2021, 0, 18)
   },
@@ -129,6 +133,8 @@ const apps = [
     thumbnail: HTMLCSSJSImg,
     title: 'Cool Components',
     description: "Track and Experiment with cool components from blog posts (made with just HTML + CSS). eg: Particle Smoke Animation, Tag Cloud, Play/Pause Animations",
+    keywords: ["Netlify", "React", "CSS3", "Media Queries"],
+    date: '20 January 2021',
     dateCreated: new Date(2021, 0, 20),
     dateLastUpdated: new Date(2021, 0, 20)
   },
@@ -138,6 +144,8 @@ const apps = [
     thumbnail: PWAImg,
     title: 'React Realtime PWA',
     description: "Progressive Web App (PWA) with lighthouse audit & bundle analyzer scripts. React UI to track cryptocurrency prices with Pusher in realtime",
+    keywords: ["Heroku", "PWA", "React", "Lighthouse Audit", "Pusher (API)"],
+    date: '23 January 2021',
     dateCreated: new Date(2021, 0, 23),
     dateLastUpdated: new Date(2021, 0, 23)
   },
@@ -147,6 +155,7 @@ const apps = [
     thumbnail: ECommerceLogoImg,
     title: 'React Shopping Cart',
     description: "Forked React Typescript & learned to deploy TypeScript apps (same method except tsconfig.json).",
+    keywords: ["Netlify", "React", "TypeScript"],
     date: '24 January 2021',
     dateCreated: new Date(2021, 0, 24),
     dateLastUpdated: new Date(2021, 0, 24)
@@ -157,6 +166,7 @@ const apps = [
     thumbnail: ErrorReactImg,
     title: 'React Error Boundaries',
     description: "Tried out error boundaries with code from official React docs (& Dan Abramov's codepen) and added a custom reload component.",
+    keywords: ["Netlify", "React", "React Error Boundaries"],
     date: '25 January 2021',
     dateCreated: new Date(2021, 0, 25),
     dateLastUpdated: new Date(2021, 0, 25)
@@ -167,6 +177,7 @@ const apps = [
     thumbnail: ReactConcurrentImg,
     title: 'React Concurrent Mode',
     description: "Used React.lazy() and Suspense to lazy load components. Used React error boundaries to catch if loading failed.",
+    keywords: ["Netlify", "React", "React Lazy"],
     date: '25 January 2021',
     dateCreated: new Date(2021, 0, 25),
     dateLastUpdated: new Date(2021, 0, 25)
@@ -177,6 +188,7 @@ const apps = [
     thumbnail: TensorflowKerasLogoImg,
     title: 'Keras REST API',
     description: "Forked example & rewrote to work on Heroku. Flask app exposes pre-trained Keras model for image classification to API requests (given image - returns labels classifying the image)",
+    keywords: ["Herokou", "Flask", "Keras"],
     date: '26 January 2021',
     dateCreated: new Date(2021, 0, 26),
     dateLastUpdated: new Date(2021, 0, 26)
@@ -187,6 +199,7 @@ const apps = [
     thumbnail: TwoFAImg,
     title: 'Implement 2FA',
     description: "Forked LogRocket example & rewrote to work on Heroku. Node.js app that authenticates registered users with 2FA app like Google Authenticator (uses JSON file rather than proper database)",
+    keywords: ["Heroku", "Node.js", "Speakeasy"],
     date: '27 January 2021',
     dateCreated: new Date(2021, 0, 27),
     dateLastUpdated: new Date(2021, 0, 27)
@@ -197,6 +210,7 @@ const apps = [
     thumbnail: VueLogoImg,
     title: 'First Vue.js App',
     description: "Used @vue/cli to generate Vue project & push to netlify. Note that vue-cli (2.X) does not build with index.html & doesn't deploy correctly!",
+    keywords: ["Netlify", "Vue.js"],
     date: '27 January 2021',
     dateCreated: new Date(2021, 0, 27),
     dateLastUpdated: new Date(2021, 0, 27)
@@ -207,6 +221,7 @@ const apps = [
     thumbnail: React360Img,
     title: 'First React 360 App',
     description: "I fixed build node v12.11.0 vs v12.10.0 issue and deployed to Netlify a sample VR project with React. React 360 creates VR framework for the creation of interactive 360 experiences that run in your web browser.",
+    keywords: ["Netlify", "React 360 (VR)"],
     date: '28 January 2021',
     dateCreated: new Date(2021, 0, 28),
     dateLastUpdated: new Date(2021, 0, 28)
@@ -217,6 +232,7 @@ const apps = [
     thumbnail: GoogleDocsImg,
     title: 'Google Doc Clone',
     description: "I forked & learned how to dynamically apply CSS onto text and div elements with JavaScript. HTML, CSS, and JavaScript for frontend and I also set up a Firebase backend for this app to store.",
+    keywords: ["Netlify", "HTML/CSS/JS", "Firebase"],
     date: '5 February 2021',
     dateCreated: new Date(2021, 1, 5),
     dateLastUpdated: new Date(2021, 1, 5)
@@ -227,6 +243,7 @@ const apps = [
     thumbnail: MusicPlayerImg,
     title: 'Python MP3 Player - Windows app',
     description: "I wrote a Python desktop with tkinter for GUI & pygame to manage audio commands & cx_Freeze to create the MSI installer. Since it's a desktop app, there is no online demo.",
+    keywords: ["Python", "tkinter", "pygame", "cx_Freeze"],
     date: '6 February 2021',
     dateCreated: new Date(2021, 1, 6),
     dateLastUpdated: new Date(2021, 1, 6)
@@ -237,6 +254,7 @@ const apps = [
     thumbnail: TensorTradeImg,
     title: 'TensorTrade - Reinforcement Learning Trading Algorithm',
     description: "Forked tutorial & used Docker to build/run TensorTrade script - script used Ray with TensorTrade (TT) in order to create a profitable algorithm on a predictable sine curve. No online demo included",
+    keywords: ["Python", "TensorTrade", "Docker"],
     date: '7 February 2021',
     dateCreated: new Date(2021, 1, 7),
     dateLastUpdated: new Date(2021, 1, 7)
@@ -247,6 +265,7 @@ const apps = [
     thumbnail: CoinMarketCapImg,
     title: 'Current Crypto Price with Streamlit',
     description: "Streamlit enables to quickly build a Python web UI (as opposed to Flask which needs templates). Uses Beautiful Soup to scrape https://coinmarketcap.com and load into Pandas dataframe. Streamlit UI that applies filters on dataframe (Streamlit also enables downloading).",
+    keywords: ["Python", "Streamlit", "BeautifulSoup", "Pandas"],
     date: '8 February 2021',
     dateCreated: new Date(2021, 1, 8),
     dateLastUpdated: new Date(2021, 1, 8)
@@ -257,6 +276,7 @@ const apps = [
     thumbnail: BouncingBallImg,
     title: 'Phaser3 Bouncing Ball Game',
     description: "The Phaser3 physics engine is super great to use to create browser games and works smoothly when deploying since it's just JavaScript. Followed tutorial & fixed up some code, but Phaser3 works very smoothly.",
+    keywords: ["Phaser3", "JavaScript"],
     date: '12 February 2021',
     dateCreated: new Date(2021, 1, 12),
     dateLastUpdated: new Date(2021, 1, 12)
@@ -267,6 +287,7 @@ const apps = [
     thumbnail: ViteLogoImg,
     title: 'First Vite App',
     description: "Vite is a frontend build tool, a replacement for Webpack. Vite has seamless integration with Vue and has SUPER fast HMR (Hot Module Replacement), especially when compared with webpack or webpack-dev-server (uses native ES modules to get this speed). Deploying to Netlify was super easy and required no extra steps.",
+    keywords: ["Netlify", "Vue.js", "Vite"],
     date: '13 February 2021',
     dateCreated: new Date(2021, 1, 13),
     dateLastUpdated: new Date(2021, 1, 13)
@@ -277,6 +298,7 @@ const apps = [
     thumbnail: SnowpackLogoImg,
     title: 'First Snowpack App',
     description: "Snowpack is a frontend build tool, replacement for Webpack. AMAZING number of templates available at https://github.com/snowpackjs/snowpack/tree/main/create-snowpack-app/cli and wider support than Vite with community templates as well.",
+    keywords: ["Netlify", "Vue.js", "Snowpack"],
     date: '13 February 2021',
     dateCreated: new Date(2021, 1, 13),
     dateLastUpdated: new Date(2021, 1, 13)
@@ -287,6 +309,7 @@ const apps = [
     thumbnail: GoogleCloneImg,
     title: 'Google Homepage Clone',
     description: "Used HTML Templates, CSS Selectors, Vanilla JS, and Font Awesome 4 (from Bootstrap CDN) to reimplement the Google Homepage. Did this practice to brush up on basics as suggested by tutorial site shown on GitHub.",
+    keywords: ["Netlify", "<template>", "HTML/CSS/JS", "Bootstrap", "Font Awesome 4"],
     date: '14 February 2021',
     dateCreated: new Date(2021, 1, 14),
     dateLastUpdated: new Date(2021, 1, 14)
@@ -297,6 +320,7 @@ const apps = [
     thumbnail: NextJSImg,
     title: 'First NextJS App',
     description: "NextJS is a React framework with page-based routing, pre-rendering, SSG, SSR, and API endpoints (https://nextjs.org/learn/basics/create-nextjs-app). Since React is just a library, you need to bundle with webpack and transform with Babel, so NextJS standardizes solutions to those problems as a framework. FURTHERMORE, deploying to Netlify was not hard, though documentation was kind of lacking since official docs did not work.",
+    keywords: ["Netlify", "Next.js"],
     date: '16 February 2021',
     dateCreated: new Date(2021, 1, 16),
     dateLastUpdated: new Date(2021, 1, 16)
@@ -307,6 +331,7 @@ const apps = [
     thumbnail: WebRTCLogoImg,
     title: 'WebRTC Peer-to-Peer Video',
     description: "Forked tutorial and cemented WebRTC signal RTCPeerConnection understanding and how two users can agree to call. Added ICE Candidate Trickling with Xirsys, TURN server cloud provider.",
+    keywords: ["Heroku", "WebRTC", "Xirsys"],
     date: '18 February 2021',
     dateCreated: new Date(2021, 1, 18),
     dateLastUpdated: new Date(2021, 1, 18)
@@ -317,6 +342,7 @@ const apps = [
     thumbnail: MusicVisualizationImg,
     title: 'Custom Music Lists',
     description: "Wrote from scratch list of song lists. Wrote custom InlineEdit titles, DropdownMenu delete function, ToDo items added on enter, Upload song lists from text file, and Download song lists as a text file. Used useLocalStorage hook to prevent sync issues & save to cache. Updated to Masonry layout with CSS media queries & grid-columns.",
+    keywords: ["Netlify", "React", "Masonry Layout w/ CSS Media Queries"],
     date: '23 February 2021',
     dateCreated: new Date(2021, 1, 23),
     dateLastUpdated: new Date(2021, 1, 28)
@@ -327,6 +353,7 @@ const apps = [
     thumbnail: InfiniteScrollImg,
     title: 'React Infinite Scroll',
     description: "Followed four different tutorials to figure out React Infinite Scroll best practices. In general, make sure you lazy load your images or there will serious performance issues and loading icons make it feel like loadtime is longer.",
+    keywords: ["Netlify", "React"],
     date: '25 February 2021',
     dateCreated: new Date(2021, 1, 23),
     dateLastUpdated: new Date(2021, 1, 25)
@@ -337,6 +364,7 @@ const apps = [
     thumbnail: OnionLogoImg,
     title: 'Django News Aggregator',
     description: "Followed tutorial for simple news aggregator. Scrapes Onion website with BeautifulSoup4 and displays with Django HTML template. I configured and deployed the Django to Heroku (first time!).",
+    keywords: ["Heroku", "Django", "BeautifulSoup4"],
     date: '2 March 2021',
     dateCreated: new Date(2021, 2, 2),
     dateLastUpdated: new Date(2021, 2, 2)
@@ -347,6 +375,7 @@ const apps = [
     thumbnail: DoczLogoImg,
     title: 'First Docz Documentation Site',
     description: "Docz simplifies writing documentation sites for your React components - it makes a route at each MDX file (MDX enables rendering a React component in markdown files). Learned about Docz from article in GitHub README and works well! (npx create-docz-app and start editing MDX files)",
+    keywords: ["Netlify", "React", "Docz (MDX)"],
     date: '3 March 2021',
     dateCreated: new Date(2021, 2, 3),
     dateLastUpdated: new Date(2021, 2, 3)
@@ -357,6 +386,7 @@ const apps = [
     thumbnail: NetlifyCMSLogoImg,
     title: 'Headless Netlify CMS + GatsbyJS',
     description: "Initialized Gatsby blog site and added Headless CMS, so users are able to create markdown files through a Netlify UI at the /admin route. Used tutorial to add gatsby/netlify plugins and adjust change createPost schema to have tags property: https://blog.bitsrc.io/use-netlify-cms-with-gatsby-blogs-8bb73ab2e0cf ",
+    keywords: ["Netlify", "GatsbyJS", "Netlify Headless CMS"],
     date: '6 March 2021',
     dateCreated: new Date(2021, 2, 6),
     dateLastUpdated: new Date(2021, 2, 6)
@@ -367,6 +397,7 @@ const apps = [
     thumbnail: PWALogoImg,
     title: 'First PWA (React)',
     description: "Built weight converter app by using HTML/CSS/Vanilla JS code from tutorial in GitHub repo link and putting into create-react-app React template.",
+    keywords: ["Netlify", "PWA", "React"],
     date: '8 March 2021',
     dateCreated: new Date(2021, 2, 8),
     dateLastUpdated: new Date(2021, 2, 8)
@@ -377,6 +408,7 @@ const apps = [
     thumbnail: NoteTakingImg,
     title: 'Custom Contact Notes',
     description: "Built off of Custom Music Lists + Bootstrap 4 styling - also store dates for every conversation (each time new item is created). Can save them as text files & send them to myself on Discord to get cloud storage - though version problems.",
+    keywords: ["Netlify", "React", "Bootstrap 4", "File Blobs (Upload)"],
     date: '10 March 2021',
     dateCreated: new Date(2021, 2, 8),
     dateLastUpdated: new Date(2021, 2, 8)
@@ -387,6 +419,7 @@ const apps = [
     thumbnail: SocketIOImg,
     title: 'Next.js + Node.js + SocketIO Chatroom',
     description: "Chatroom showing connected users and chat from those users. Built using multiple tutorials described in README.md. Deployed Next.js frontend to Netlify and Node.js backend to Heroku. Connected server SocketIO to client with SocketIO-Client.",
+    keywords: ["Heroku", "Netlify", "Node.js", "SocketIO", "Next.js"],
     date: '12 March 2021',
     dateCreated: new Date(2021, 2, 12),
     dateLastUpdated: new Date(2021, 2, 12)
@@ -398,6 +431,7 @@ const apps = [
     thumbnail: MicrophoneSpeakImg,
     title: 'React Speech Recognition',
     description: "Used hook from react-speech-recognition library to convert speech to text in the browser (which uses the broweser's Web Speech API). Built off of LogRocket Blog tutorial listed in README.md",
+    keywords: ["Netlify", "React", "react-speech-recognition (Web Speech API)"],
     date: '13 March 2021',
     dateCreated: new Date(2021, 2, 13),
     dateLastUpdated: new Date(2021, 2, 13)
@@ -408,6 +442,7 @@ const apps = [
     thumbnail: OpenCVLogoImg,
     title: 'OpenCV + pyzbar QR Code Reader',
     description: "(No Demo - did not write Flask webapp) Followed tutorial code to build QR Code Reader. Every second, OpenCV passes the camera frame to pyzbar which scans for a QR Code.",
+    keywords: ["Python", "OpenCV", "pyzbar"],
     date: '26 March 2021',
     dateCreated: new Date(2021, 2, 26),
     dateLastUpdated: new Date(2021, 2, 26)
@@ -418,6 +453,7 @@ const apps = [
     thumbnail: DLibThumbnailImg,
     title: 'First Face Recognition',
     description: "(No Demo - did not write Flask webapp) Followed tutorial code to use face-recognition library & OpenCV to label faces shown by the camera livefeed given one image to train on.",
+    keywords: ["Python", "OpenCV", "face-recognition"],
     date: '26 March 2021',
     dateCreated: new Date(2021, 2, 26),
     dateLastUpdated: new Date(2021, 2, 26)
@@ -428,6 +464,7 @@ const apps = [
     thumbnail: GitHubActionsDockerLogoImg,
     title: 'Yarn + TypeScript (Built with Docker)',
     description: "Followed tutorial to divide into Yarn packages: common, app, and server - React frontend in app & Express backend in server. Transpiled TypeScript with ESBuild. Used GitHub Actions + Dockerfile to automatatically push to container registry in GitHub Packages & automatically deploy to Heroku using GitHub Action in Marketplace.",
+    keywords: ["Heroku", "Yarn", "Typescript", "Docker", "React", "Node.js (Express)"],
     date: '27 March 2021',
     dateCreated: new Date(2021, 2, 27),
     dateLastUpdated: new Date(2021, 2, 27)
@@ -438,6 +475,7 @@ const apps = [
     thumbnail: IotaLogoImg,
     title: 'First IOTA Node',
     description: "Followed tutorial and sent my first transaction (\"hello world\") to an IOTA node in the Tangle. IOTA is a third generation cryptocurrency uses a DAG (the Tangle) and has no blockchain/miners. To do this, every issuer for a transaction must authenticate two other transactions.",
+    keywords: ["IOTA (3rd gen crypto)"],
     date: '31 March 2021',
     dateCreated: new Date(2021, 2, 31),
     dateLastUpdated: new Date(2021, 2, 31)
@@ -448,6 +486,7 @@ const apps = [
     thumbnail: VercelLogoImg,
     title: 'Next-Auth Login on Vercel',
     description: "Forked Next-Auth example and learned to use Next-Auth through Providers. You can easily customize your login needs by adding Providers (eg: Google, GitHub, etc.) as needed in api/[...nextauth.js]. Unlike Netlify, Vercel exposes Node.js functions in the API folder as serverless functions, so simple frontend apps can use a basic backend easily where I could expose the JWT & session info as API calls. Vercel's dashboard matches Netlify in ease to use and also sets up Continuous Deployment with my GitHub repo.",
+    keywords: ["Vercel", "Next.js"],
     date: '7 April 2021',
     dateCreated: new Date(2021, 3, 7),
     dateLastUpdated: new Date(2021, 3, 7)
@@ -458,6 +497,7 @@ const apps = [
     thumbnail: OpenAPILogoImg,
     title: 'First OpenAPI (formerly Swagger)',
     description: "Forked express-open-api after reading article in GitHub README. APIs require frequent updates to code and then documentation and then tests. With an API standardization (like OpenAPI/Swagger), client SDKs, tests, mock servers, and documentation can be auto generated from specifications like seen in the screenshots of the GitHub README (no demo since rather than an app, it's documentation + testing automation).",
+    keywords: ["Node.js", "OpenAPI"],
     date: '7 April 2021',
     dateCreated: new Date(2021, 3, 7),
     dateLastUpdated: new Date(2021, 3, 7)
@@ -467,7 +507,8 @@ const apps = [
     github_link: 'https://github.com/Borghese-Gladiator/react-tutorial-refresher',
     thumbnail: CompleteReactTutorialImg,
     title: 'React Tutorial Refresher',
-    description: "Yesterday, I presented for 320 and did not do a good job conveying React and how to use it. Used tutorial from freecodecamp (linked in GitHub README) to refresh knowledge. Super clean code to present data with TodoList, DeleteTodo, and AddTodo where setState was passed to child components to mutate data. Also used inputRef to clean input after submit. Did another tutorial in this repo to learn Progressive && Responsive Video Loading in React. Used VLC Media Player to create thumbnails and generate 480p && 720p versions of original MP4 video.",
+    description: "Yesterday, I presented for 320 college class and did not do a good job conveying React and how to use it. Used tutorial from freecodecamp (linked in GitHub README) to refresh knowledge. Super clean code to present data with TodoList, DeleteTodo, and AddTodo where setState was passed to child components to mutate data. Also used inputRef to clean input after submit. Did another tutorial in this repo to learn Progressive && Responsive Video Loading in React. Used VLC Media Player to create thumbnails and generate 480p && 720p versions of original MP4 video.",
+    keywords: ["Netlify", "React", "VLC Media Player"],
     date: '14 April 2021',
     dateCreated: new Date(2021, 3, 14),
     dateLastUpdated: new Date(2021, 3, 14)
@@ -477,7 +518,8 @@ const apps = [
     github_link: 'https://github.com/Borghese-Gladiator/contact-manager',
     thumbnail: ContactsStockImage,
     title: 'Next.js Custom Contact List',
-    description: "Quick utility to track when I talked to people and take notes on it. Wrote this since CRM tools were overboard and I couldn't find a small utility. Used custom CSS for all components - Sidebar, LazyBackgroundImage, AbsoluteDropdownMenu, UserTable, etc. All info saved in localStorage (workaround since using Next.js). 140 commits total due to rewrites and bug fixes",
+    description: "Utility to track when I talked to people and take notes on it. Wrote this since CRM tools were overboard and I couldn't find a small utility. Used custom CSS for all components - Sidebar, LazyBackgroundImage, AbsoluteDropdownMenu, UserTable, etc. All info saved in localStorage (workaround since using Next.js). 140 commits total due to rewrites and bug fixes",
+    keywords: ["Next.js", "localStorage"],
     date: '27 April 2021',
     dateCreated: new Date(2021, 3, 27),
     dateLastUpdated: new Date(2021, 3, 27)
@@ -488,6 +530,7 @@ const apps = [
     thumbnail: SpamClassifierImage,
     title: 'Python Spam Classification',
     description: "Trained SKLearn DecisionTree, GradientBoost, RandomForest classifiers based on extracted text features found in features.py (count of misspelled words, count of known spam phrases, count of exclamation points). Used NLTK library  to find valid words. Loaded CSV from Kaggle dataset. Used JS to scrape a known spam words list from website. Saved best classification model as pickle object. Also, wrote up utilities to tokenize, lemmatize, and remove stop words, however, runtime was FAR too long to be usable.",
+    keywords: ["Python", "sklearn", "NLTK"],
     date: '30 April 2021',
     dateCreated: new Date(2021, 3, 30),
     dateLastUpdated: new Date(2021, 3, 30)
