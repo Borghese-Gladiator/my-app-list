@@ -1,20 +1,32 @@
 import React from 'react';
-import "./Card.css"
+import "./Card.css";;
 
-
-const Card = (props) => (
-  <div className="card" key={props.idx}>
-    <img src={props.thumbnail} alt="thumbnail" />
+const Card = ({
+  idx,
+  link,
+  github_link,
+  thumbnail,
+  title,
+  description,
+  keywords,
+  dateCreated,
+  dateLastUpdated
+}) => (
+  <div className="card" key={idx}>
+    <img src={thumbnail} alt="thumbnail" />
     <div className="card-body">
-      <h2>{props.title}</h2>
-      <h4><a href={props.github_link} target="_blank" rel="noopener noreferrer">{props.github_link}</a></h4>
-      <p>{props.description}</p>
+      <h2>{title}</h2>
+      <h4><a href={github_link} target="_blank" rel="noopener noreferrer">{github_link}</a></h4>
+      <p>{description}</p>
+      {
+        keywords.map((item, idx) => <span key={`demo_snap_${idx}`} className="chip">{item}</span>)
+      }
       <div className="space-between-container">
         <div>
-          <h4>{props.date}</h4>
-          <span id="label-last-updated">{`Last Updated: ${props.lastUpdated}`}</span>
+          <h4>{dateCreated}</h4>
+          <span id="label-last-updated">{`Last Updated: ${dateLastUpdated}`}</span>
         </div>
-        <a href={props.link} target="_blank" rel="noopener noreferrer" className="card-link-btn">Demo</a>
+        <a href={link} target="_blank" rel="noopener noreferrer" className="card-link-btn">Demo</a>
       </div>
     </div>
   </div>

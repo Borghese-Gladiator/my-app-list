@@ -530,7 +530,7 @@ const apps = [
     thumbnail: SpamClassifierImage,
     title: 'Python Spam Classification',
     description: "Trained SKLearn DecisionTree, GradientBoost, RandomForest classifiers based on extracted text features found in features.py (count of misspelled words, count of known spam phrases, count of exclamation points). Used NLTK library  to find valid words. Loaded CSV from Kaggle dataset. Used JS to scrape a known spam words list from website. Saved best classification model as pickle object. Also, wrote up utilities to tokenize, lemmatize, and remove stop words, however, runtime was FAR too long to be usable.",
-    keywords: ["Python", "sklearn", "NLTK"],
+    keywords: ["Python", "SKLearn", "NLTK"],
     date: '30 April 2021',
     dateCreated: new Date(2021, 3, 30),
     dateLastUpdated: new Date(2021, 3, 30)
@@ -584,7 +584,16 @@ const IndexPage = () => {
   const appList = apps
   .sort(SORT_MAP[sort])
   .map((appObj, idx) => {
-    const { link, github_link, thumbnail, title, description, dateCreated, dateLastUpdated } = appObj;
+    const {
+      link,
+      github_link,
+      thumbnail,
+      title,
+      description,
+      keywords,
+      dateCreated,
+      dateLastUpdated
+    } = appObj;
     return (
       <Card
         key={idx}
@@ -593,8 +602,9 @@ const IndexPage = () => {
         thumbnail={thumbnail}
         title={title}
         description={description}
-        date={formatDateCreated(dateCreated)}
-        lastUpdated={formatDateUpdated(dateLastUpdated)}
+        keywords={keywords}
+        dateCreated={formatDateCreated(dateCreated)}
+        dateLastUpdated={formatDateUpdated(dateLastUpdated)}
       />
     );
   })

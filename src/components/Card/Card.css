@@ -115,3 +115,22 @@ h4 a {
 #label-last-updated {
   font-size: 0.8em;
 }
+
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 25px;
+  background-color: #e0e0e0;
+}
+
+.chip:hover {
+  background-color: #b0b0b0;
+}
+
+.chip:active {
+  transform: scale(0.98); 
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
