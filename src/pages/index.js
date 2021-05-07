@@ -47,6 +47,7 @@ import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 import SpamClassifierImage from '../images/spam_classifier.png';
+import ChromeExtensionImage from '../images/chrome_extension_image.jpeg';
 import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.png';
 
 // styles
@@ -535,6 +536,17 @@ const apps = [
     date: '30 April 2021',
     dateCreated: new Date(2021, 3, 30),
     dateLastUpdated: new Date(2021, 3, 30)
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/auto-scroller-chrome-extension',
+    github_link: 'https://github.com/Borghese-Gladiator/auto-scroller-chrome-extension',
+    thumbnail: ChromeExtensionImage,
+    title: 'Chrome Auto Scroller',
+    description: "Chrome extension to automatically scroll web page down (especially useful for reading novels online) for https://www.51shucheng.net/ => removes advertisements & script goes to next page when at bottom of text content.",
+    keywords: ["Chrome Extension", "Vanilla JS", "HTML/CSS/JavaScript"],
+    date: '3 May 2021',
+    dateCreated: new Date(2021, 4, 3),
+    dateLastUpdated: new Date(2021, 4, 7)
   },
   {
     link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
