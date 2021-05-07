@@ -47,6 +47,7 @@ import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 import SpamClassifierImage from '../images/spam_classifier.png';
+import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.png';
 
 // styles
 const pageStyles = {
@@ -530,10 +531,21 @@ const apps = [
     thumbnail: SpamClassifierImage,
     title: 'Python Spam Classification',
     description: "Trained SKLearn DecisionTree, GradientBoost, RandomForest classifiers based on extracted text features found in features.py (count of misspelled words, count of known spam phrases, count of exclamation points). Used NLTK library  to find valid words. Loaded CSV from Kaggle dataset. Used JS to scrape a known spam words list from website. Saved best classification model as pickle object. Also, wrote up utilities to tokenize, lemmatize, and remove stop words, however, runtime was FAR too long to be usable.",
-    keywords: ["Python", "SKLearn", "NLTK"],
+    keywords: ["Python", "SKLearn", "NLTK", "Numpy"],
     date: '30 April 2021',
     dateCreated: new Date(2021, 3, 30),
     dateLastUpdated: new Date(2021, 3, 30)
+  },
+  {
+    link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
+    github_link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
+    thumbnail: PersonWalkingImage,
+    title: 'Python Classifying Gender by Gait',
+    description: "Gait is manner of walking. Collected accelerometer data from 3 subjects (2M 1F) and filtered signal. Extracted features from filtered signal - Mean, Variance, Entropy (scipy.stats), Peak Count (scipy.signal), Dominant Frequency (numpy.fft). Train SKLearn DecisionTree, GradientBoost, RandomForest classifiers. ",
+    keywords: ["Python", "SKLearn", "Pandas", "Numpy"],
+    date: '6 May 2021',
+    dateCreated: new Date(2021, 4, 6),
+    dateLastUpdated: new Date(2021, 4, 6)
   },
   /*
   {
