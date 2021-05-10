@@ -49,6 +49,7 @@ import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 import SpamClassifierImage from '../images/spam_classifier.png';
 import ChromeExtensionImage from '../images/chrome_extension_image.jpeg';
 import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.png';
+import ReduxLogoImage from '../images/redux_logo.png';
 
 // styles
 const pageStyles = {
@@ -546,7 +547,7 @@ const apps = [
     keywords: ["Chrome Extension", "Vanilla JS", "HTML/CSS/JavaScript"],
     date: '3 May 2021',
     dateCreated: new Date(2021, 4, 3),
-    dateLastUpdated: new Date(2021, 4, 7)
+    dateLastUpdated: new Date(2021, 4, 9)
   },
   {
     link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
@@ -558,6 +559,17 @@ const apps = [
     date: '6 May 2021',
     dateCreated: new Date(2021, 4, 6),
     dateLastUpdated: new Date(2021, 4, 6)
+  },
+  {
+    link: 'https://priceless-roentgen-022985.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/redux-dark-mode',
+    thumbnail: ReduxLogoImage,
+    title: 'First Redux App',
+    description: "Used CRA Redux template and created first redux app. Wrote my first reducer + selectors to toggle between dark mode and light mode. Leanred that reducer state MUST be an object (cannot simply be a True/False primitive)",
+    keywords: ["Netlify", "React", "React-Redux"],
+    date: '10 May 2021',
+    dateCreated: new Date(2021, 4, 10),
+    dateLastUpdated: new Date(2021, 4, 10)
   },
   /*
   {
