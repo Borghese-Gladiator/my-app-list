@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 // package to add meta
 import { Helmet } from "react-helmet";
 // custom components
+import Loading from '../components/Loading';
 import Card from '../components/Card';
 import SortButton from '../components/SortButton';
 
 // image assets
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
 import MERNImg from '../images/mern-logos.png';
-import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
+// import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
 import PWAImg from '../images/pwa_app.png';
 import HTMLCSSJSImg from '../images/htmlCssJS-1140x515.jpg'
 import ECommerceLogoImg from '../images/e-commerce-logo.jpg';
@@ -44,7 +45,7 @@ import IotaLogoImg from '../images/iota-logo.jpg';
 import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
 import OpenAPILogoImg from '../images/openapi-whats-new.png';
 import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021.png';
-import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
+// import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 import SpamClassifierImage from '../images/spam_classifier.png';
 import ChromeExtensionImage from '../images/chrome_extension_image.jpeg';
@@ -607,6 +608,7 @@ const SORT_NAMES = Object.keys(SORT_MAP);
 // markup
 const IndexPage = () => {
   const [sort, setSort] = useState('Recent');
+  const [hasLoaded, setHasLoaded] = useState(false);
 
   const sortList = SORT_NAMES.map(name => (
     <SortButton
@@ -643,7 +645,15 @@ const IndexPage = () => {
         dateLastUpdated={formatDateUpdated(dateLastUpdated)}
       />
     );
-  })
+  });
+
+  useEffect(() => {
+    setHasLoaded(true)
+  }, [hasLoaded])
+
+  if (!hasLoaded) {
+    return <Loading />
+  }
   
   return (
     <main style={pageStyles}>
