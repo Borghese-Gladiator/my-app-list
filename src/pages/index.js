@@ -45,12 +45,12 @@ import IotaLogoImg from '../images/iota-logo.jpg';
 import VercelLogoImg from '../images/vercel-inc-logo-vector.png';
 import OpenAPILogoImg from '../images/openapi-whats-new.png';
 import CompleteReactTutorialImg from '../images/the-complete-react-tutorial-2021.png';
-// import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import ContactsStockImage from '../images/contacts-SpecPage-1024x496.jpg';
 import SpamClassifierImage from '../images/spam_classifier.png';
 import ChromeExtensionImage from '../images/chrome_extension_image.jpeg';
 import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.png';
 import ReduxLogoImage from '../images/redux_logo.png';
+import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 
 // styles
 const pageStyles = {
@@ -572,17 +572,17 @@ const apps = [
     dateCreated: new Date(2021, 4, 10),
     dateLastUpdated: new Date(2021, 4, 10)
   },
-  /*
   {
     link: 'https://www.udemy.com/course/automate/',
-    github_link: 'https://www.udemy.com/course/automate/',
+    github_link: 'https://github.com/Borghese-Gladiator/notebook-compilation/tree/master/automating_the_boring_stuff',
     thumbnail: AutomateBoringStuffPythonImg,
     title: 'Automate the Boring Stuff with Python',
-    description: "(Got Free Coupon code on April 4th, 2021). Took Udemy course: Automate the Boring Stuff with Python Programming. Though I'm familiar with Python (list generators, ML packages like numpy), I learned from chapters 10 to 15: Regex, Files, Debugging, Web Scraping, Excel/Word/PDF Documents, and Email. I can incorporate Python scripts into my BAT scrips far more easily now and feel comfortable automating GUI clicks locally.",
-    date: '14 April 2021',
+    description: "(Got Free Coupon code on April 4th, 2021). Took Udemy course: Automate the Boring Stuff with Python Programming. Though I'm familiar with Python (list generators, ML packages like numpy), I learned from chapters 10 to 16: Regex, Files, Debugging, Web Scraping, Excel/Word/PDF Documents, Email, and GUI Automation. (10 Regex) - used VERBOSE mode to write phone number and email Regex with comments. (11 Files) - used shelve for persistent Python object storage, shutil for deleting, and os for walking directory trees. (12 Debugging) -  Python assertions, logging library to control number of logs with mode. (13 Web Scraping) - requests, beautifulsoup4, and selenium methods. (14 - Excel/Word/PDF) -Automatically read/edit Excel, Word, PDFs. (15 - Email) - Send emails with SMTP & read inbox with IMAP. (16 - GUI Automation) - Used PyAutoGUI to automate mouse, keyboard, and screenshots - could play SushiGoRound w/ script.",
+    date: '12 May 2021',
     dateCreated: new Date(2021, 3, 14),
-    dateLastUpdated: new Date(2021, 3, 14)
+    dateLastUpdated: new Date(2021, 4, 12)
   },
+  /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
