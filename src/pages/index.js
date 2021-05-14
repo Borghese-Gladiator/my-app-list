@@ -518,6 +518,17 @@ const apps = [
     dateLastUpdated: new Date(2021, 3, 14)
   },
   {
+    link: 'https://www.udemy.com/course/automate/',
+    github_link: 'https://github.com/Borghese-Gladiator/notebook-compilation/tree/master/automating_the_boring_stuff',
+    thumbnail: AutomateBoringStuffPythonImg,
+    title: 'Udemy - Automate the Boring Stuff',
+    description: "Free Udemy Python course offer. (10 Regex) - used VERBOSE mode to write phone number and email Regex with comments. (11 Files) - used shelve for persistent Python object storage, shutil for deleting, and os for walking directory trees. (12 Debugging) -  Python assertions, logging library to control number of logs with mode. (13 Web Scraping) - requests, beautifulsoup4, and selenium methods. (14 - Excel/Word/PDF) -Automatically read/edit Excel, Word, PDFs. (15 - Email) - Send emails with SMTP & read inbox with IMAP. (16 - GUI Automation) - Used PyAutoGUI to automate mouse, keyboard, and screenshots - tried out playing SushiGoRound w/ script.",
+    keywords: ["Python", "openpyxl / PyPDF2 / docx", "smtplib / imapclient", "pyautogui"],
+    date: '12 May 2021',
+    dateCreated: new Date(2021, 3, 15),
+    dateLastUpdated: new Date(2021, 4, 12)
+  },
+  {
     link: 'https://contact-manager.vercel.app/',
     github_link: 'https://github.com/Borghese-Gladiator/contact-manager',
     thumbnail: ContactsStockImage,
@@ -571,16 +582,6 @@ const apps = [
     date: '10 May 2021',
     dateCreated: new Date(2021, 4, 10),
     dateLastUpdated: new Date(2021, 4, 10)
-  },
-  {
-    link: 'https://www.udemy.com/course/automate/',
-    github_link: 'https://github.com/Borghese-Gladiator/notebook-compilation/tree/master/automating_the_boring_stuff',
-    thumbnail: AutomateBoringStuffPythonImg,
-    title: 'Automate the Boring Stuff with Python',
-    description: "(Got Free Coupon code on April 4th, 2021). Took Udemy course: Automate the Boring Stuff with Python Programming. Though I'm familiar with Python (list generators, ML packages like numpy), I learned from chapters 10 to 16: Regex, Files, Debugging, Web Scraping, Excel/Word/PDF Documents, Email, and GUI Automation. (10 Regex) - used VERBOSE mode to write phone number and email Regex with comments. (11 Files) - used shelve for persistent Python object storage, shutil for deleting, and os for walking directory trees. (12 Debugging) -  Python assertions, logging library to control number of logs with mode. (13 Web Scraping) - requests, beautifulsoup4, and selenium methods. (14 - Excel/Word/PDF) -Automatically read/edit Excel, Word, PDFs. (15 - Email) - Send emails with SMTP & read inbox with IMAP. (16 - GUI Automation) - Used PyAutoGUI to automate mouse, keyboard, and screenshots - could play SushiGoRound w/ script.",
-    date: '12 May 2021',
-    dateCreated: new Date(2021, 3, 14),
-    dateLastUpdated: new Date(2021, 4, 12)
   },
   /*
   {
