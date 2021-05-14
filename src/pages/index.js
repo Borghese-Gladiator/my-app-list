@@ -464,7 +464,7 @@ const apps = [
   },
   {
     link: 'https://first-yarn-typescript.herokuapp.com/',
-    github_link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
+    github_link: 'https://github.com/Borghese-Gladiator/first-yarn-typescript',
     thumbnail: GitHubActionsDockerLogoImg,
     title: 'Yarn + TypeScript (Built with Docker)',
     description: "Followed tutorial to divide into Yarn packages: common, app, and server - React frontend in app & Express backend in server. Transpiled TypeScript with ESBuild. Used GitHub Actions + Dockerfile to automatatically push to container registry in GitHub Packages & automatically deploy to Heroku using GitHub Action in Marketplace.",
