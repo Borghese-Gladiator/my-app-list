@@ -5,6 +5,8 @@ import { Helmet } from "react-helmet";
 import Loading from '../components/Loading';
 import Card from '../components/Card';
 import SortButton from '../components/SortButton';
+// page styling
+import '../styles/index.css';
 
 // image assets
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
@@ -664,7 +666,7 @@ const IndexPage = () => {
       </Helmet>
       <div style={rootStyles}>
         <h1 style={headingStyles}>
-          <span>Borghese-Gladiator{" "}<span style={headingAccentStyles}>App List</span></span>
+          <span>Borghese-Gladiator{" "}<span className={"header"} >App List</span></span>
           <span role="img" aria-label="Party popper emojis">
             🎉🎉🎉
           </span>
