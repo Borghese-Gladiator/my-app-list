@@ -63,9 +63,6 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0
 }
-const headingAccentStyles = {
-  color: "#663399",
-}
 const codeStyles = {
   color: "#8A6534",
   padding: 4,
@@ -81,7 +78,6 @@ const rootStyles = {
   justifyContent: 'center',
   alignItems: 'center',
 }
-
 const cardContainerStyle = {
   display: 'flex',
   justifyContent: 'center',
@@ -89,10 +85,12 @@ const cardContainerStyle = {
   flexDirection: 'row',
   flexWrap: 'wrap'
 }
-
 const sortContainerStyle = {
   display: 'flex',
   justifyContent: 'center',
+}
+const smartShadowStyles = {
+  textShadow: '0 -0.5rem 0.5rem #901a00, 0 0.5rem 1rem #999'
 }
 
 function formatDateCreated(date) {
@@ -666,10 +664,8 @@ const IndexPage = () => {
       </Helmet>
       <div style={rootStyles}>
         <h1 style={headingStyles}>
-          <span>Borghese-Gladiator{" "}<span className={"header"} >App List</span></span>
-          <span role="img" aria-label="Party popper emojis">
-            🎉🎉🎉
-          </span>
+          <span>Borghese-Gladiator{" "}<span className={"header_animated_mesh_gradient"} >App List</span></span>
+          <span role="img" aria-label="Party popper emojis" style={smartShadowStyles}>🎉</span>
         </h1>
         <p>
           <span>Track apps I've been making</span>
