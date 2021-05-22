@@ -1,3 +1,4 @@
+/* Headlines with Animated Mesh Gradient Background - https://codesandbox.io/s/pmugf */
 .header_animated_mesh_gradient {
   will-change: auto;
   text-align: center;
@@ -30,6 +31,7 @@
   }
 }
 
+/* Neon Text - https://codepen.io/silvia-odwyer/pen/MWJVaqm */
 .neonText {
   color: #e93b81;
   text-shadow:
