@@ -668,7 +668,7 @@ const IndexPage = () => {
           <span role="img" aria-label="Party popper emojis" style={smartShadowStyles}>🎉</span>
         </h1>
         <p>
-          <span>Track apps I've been making</span>
+          <span className={"neonText"}>Track</span><span> apps I've been making</span>
           <span role="img" aria-label="Sunglasses smiley emoji">
             {' 😎 '}
           </span>
