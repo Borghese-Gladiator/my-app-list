@@ -53,6 +53,7 @@ import ChromeExtensionImage from '../images/chrome_extension_image.jpeg';
 import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.png';
 import ReduxLogoImage from '../images/redux_logo.png';
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
+import NLTKLogoImage from '../images/nltk_logo.png';
 
 // styles
 const pageStyles = {
@@ -582,6 +583,17 @@ const apps = [
     date: '10 May 2021',
     dateCreated: new Date(2021, 4, 10),
     dateLastUpdated: new Date(2021, 4, 10)
+  },
+  {
+    link: 'https://flask-api-sentiment-analysis.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/flask-api-sentiment-analysis',
+    thumbnail: NLTKLogoImage,
+    title: 'Deploy NLTK Model with Flask',
+    description: "Created REST API with Flask to expose my Multinomial Naive Bayes sentiment analysis classifier written with NLTK and deployed to Heroku",
+    keywords: ["Heroku", "Flask", "NLTK"],
+    date: '21 May 2021',
+    dateCreated: new Date(2021, 5, 21),
+    dateLastUpdated: new Date(2021, 5, 22)
   },
   /*
   {
