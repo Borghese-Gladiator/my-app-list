@@ -54,6 +54,7 @@ import PersonWalkingImage from '../images/person_walking_acceloremeter_signal.pn
 import ReduxLogoImage from '../images/redux_logo.png';
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import NLTKLogoImage from '../images/nltk_logo.png';
+import DiscordLogoImage from '../images/Discord-Logo.png';
 
 // styles
 const pageStyles = {
@@ -594,6 +595,17 @@ const apps = [
     date: '21 May 2021',
     dateCreated: new Date(2021, 5, 21),
     dateLastUpdated: new Date(2021, 5, 22)
+  },
+  {
+    link: 'https://discord-word-wolf-bot.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/discord-word-wolf-bot',
+    thumbnail: DiscordLogoImage,
+    title: 'Discord Bot - Word Wolf',
+    description: "Created Discord bot to play game Word Wolf with friends on Heroku using Python and discord.py. Loaded Discord secrets with python-dotenv and .env file. Managed dependencies with requirements.in and pip-tools (pip-compile & pip-sync). Wrote up unit tests with unittest and generated coverage reports with coverage",
+    keywords: ["Heroku", "discord.py", "python-dotenv", "pip-tools", "unittest"],
+    date: '4 Aug 2021',
+    dateCreated: new Date(2021, 8, 4),
+    dateLastUpdated: new Date(2021, 8, 4)
   },
   /*
   {
