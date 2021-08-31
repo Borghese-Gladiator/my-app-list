@@ -55,6 +55,7 @@ import ReduxLogoImage from '../images/redux_logo.png';
 import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_book_cover.jpg';
 import NLTKLogoImage from '../images/nltk_logo.png';
 import DiscordLogoImage from '../images/Discord-Logo.png';
+import GCPLogoImage from '../images/Google-Cloud-Platform-900x400-1.jpg';
 
 // styles
 const pageStyles = {
@@ -606,6 +607,17 @@ const apps = [
     date: '4 Aug 2021',
     dateCreated: new Date(2021, 8, 4),
     dateLastUpdated: new Date(2021, 8, 4)
+  },
+  {
+    link: 'http://34.75.232.117:80',
+    github_link: 'https://github.com/Borghese-Gladiator/first-docker-gcp',
+    thumbnail: GCPLogoImage,
+    title: 'First GCP Docker App',
+    description: "(NO DEMO - costs money to host) Deployed example containerized Express (Node.js) server to Google Cloud Platform. Pushed custom Docker image to Artifact Registry; Created a Google Kubernetes Engine cluster and deployed sample app there. Exposed app to internet and updated app using Kubernetes commands",
+    keywords: ["GCP", "Docker", "GKE", "Kubernetes", "Express"],
+    date: '30 Aug 2021',
+    dateCreated: new Date(2021, 8, 30),
+    dateLastUpdated: new Date(2021, 8, 30)
   },
   /*
   {
