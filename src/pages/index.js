@@ -56,6 +56,7 @@ import AutomateBoringStuffPythonImg from '../images/automate_the_boring_stuff_bo
 import NLTKLogoImage from '../images/nltk_logo.png';
 import DiscordLogoImage from '../images/Discord-Logo.png';
 import GCPLogoImage from '../images/Google-Cloud-Platform-900x400-1.jpg';
+import GenieLogoImage from '../images/genie.png';
 
 // styles
 const pageStyles = {
@@ -618,6 +619,28 @@ const apps = [
     date: '30 Aug 2021',
     dateCreated: new Date(2021, 8, 30),
     dateLastUpdated: new Date(2021, 8, 30)
+  },
+  {
+    link: 'http://34.75.232.117:80',
+    github_link: 'https://github.com/Borghese-Gladiator/first-docker-gcp',
+    thumbnail: GCPLogoImage,
+    title: 'First GCP Multi-Docker App',
+    description: "(NO DEMO - costs money to host) Deployed MERN app using YAML configurations (<ba>.yml for PRD and docker-compose.yml for DEV)",
+    keywords: ["GCP", "Docker", "GKE", "Kubernetes", "Express"],
+    date: '31 Aug 2021',
+    dateCreated: new Date(2021, 8, 31),
+    dateLastUpdated: new Date(2021, 8, 31)
+  },
+  {
+    link: 'https://first-julia-genie-app.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/MyFirstGenieApp',
+    thumbnail: GenieLogoImage,
+    title: 'First Genie App',
+    description: "Genie is a web framework (like Django) written for Julia. In this app, I learned Julia through JuliaAcademy and applied my learnings to create & deploy the basic web app with Genie.",
+    keywords: ["Heroku", "Genie", "Julia"],
+    date: '6 September 2021',
+    dateCreated: new Date(2021, 9, 6),
+    dateLastUpdated: new Date(2021, 9, 6)
   },
   /*
   {
