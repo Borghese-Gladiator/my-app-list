@@ -57,6 +57,7 @@ import NLTKLogoImage from '../images/nltk_logo.png';
 import DiscordLogoImage from '../images/Discord-Logo.png';
 import GCPLogoImage from '../images/Google-Cloud-Platform-900x400-1.jpg';
 import GenieLogoImage from '../images/genie.png';
+import ValorantLogoImage from '../images/valorant_logo.png';
 
 // styles
 const pageStyles = {
@@ -641,6 +642,17 @@ const apps = [
     date: '6 September 2021',
     dateCreated: new Date(2021, 9, 6),
     dateLastUpdated: new Date(2021, 9, 6)
+  },
+  {
+    link: 'https://valorant-lineups-six.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/valorant-lineups',
+    thumbnail: ValorantLogoImage,
+    title: 'Valorant Lineups',
+    description: "Next.js + Chakra UI components on Vercel to create Valorant Lineups app that enables me to quickly filter by map, agent, and attackDefense to find corresponding images from the public folder. These paths are stored in a directory structure /map/agent/attackDefense and loaded using a pathsObject created at buildtime using getStaticProps",
+    keywords: ["Vercel", "Next.js", "Chakra UI"],
+    date: '19 September 2021',
+    dateCreated: new Date(2021, 9, 19),
+    dateLastUpdated: new Date(2021, 9, 19)
   },
   /*
   {
