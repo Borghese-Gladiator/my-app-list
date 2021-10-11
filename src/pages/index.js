@@ -596,8 +596,8 @@ const apps = [
     description: "Created REST API with Flask to expose my Multinomial Naive Bayes sentiment analysis classifier written with NLTK and deployed to Heroku",
     keywords: ["Heroku", "Flask", "NLTK"],
     date: '21 May 2021',
-    dateCreated: new Date(2021, 5, 21),
-    dateLastUpdated: new Date(2021, 5, 22)
+    dateCreated: new Date(2021, 4, 21),
+    dateLastUpdated: new Date(2021, 4, 22)
   },
   {
     link: 'https://discord-word-wolf-bot.herokuapp.com/',
@@ -607,8 +607,8 @@ const apps = [
     description: "Created Discord bot to play game Word Wolf with friends on Heroku using Python and discord.py. Loaded Discord secrets with python-dotenv and .env file. Managed dependencies with requirements.in and pip-tools (pip-compile & pip-sync). Wrote up unit tests with unittest and generated coverage reports with coverage",
     keywords: ["Heroku", "discord.py", "python-dotenv", "pip-tools", "unittest"],
     date: '4 Aug 2021',
-    dateCreated: new Date(2021, 8, 4),
-    dateLastUpdated: new Date(2021, 8, 4)
+    dateCreated: new Date(2021, 7, 4),
+    dateLastUpdated: new Date(2021, 7, 4)
   },
   {
     link: 'http://34.75.232.117:80',
@@ -618,9 +618,32 @@ const apps = [
     description: "(NO DEMO - costs money to host) Deployed example containerized Express (Node.js) server to Google Cloud Platform. Pushed custom Docker image to Artifact Registry; Created a Google Kubernetes Engine cluster and deployed sample app there. Exposed app to internet and updated app using Kubernetes commands",
     keywords: ["GCP", "Docker", "GKE", "Kubernetes", "Express"],
     date: '30 Aug 2021',
-    dateCreated: new Date(2021, 8, 30),
-    dateLastUpdated: new Date(2021, 8, 30)
+    dateCreated: new Date(2021, 7, 30),
+    dateLastUpdated: new Date(2021, 7, 30)
   },
+  {
+    link: 'https://first-julia-genie-app.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/MyFirstGenieApp',
+    thumbnail: GenieLogoImage,
+    title: 'First Genie App',
+    description: "Genie is a web framework (like Django) written for Julia. In this app, I learned Julia through JuliaAcademy and applied my learnings to create & deploy the basic web app with Genie.",
+    keywords: ["Heroku", "Genie", "Julia"],
+    date: '6 September 2021',
+    dateCreated: new Date(2021, 8, 6),
+    dateLastUpdated: new Date(2021, 8, 6)
+  },
+  {
+    link: 'https://valorant-lineups-six.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/valorant-lineups',
+    thumbnail: ValorantLogoImage,
+    title: 'Valorant Lineups',
+    description: "Next.js + Chakra UI components on Vercel to create Valorant Lineups app that enables me to quickly filter by map, agent, and attackDefense to find corresponding images from the public folder. These paths are stored in a directory structure /map/agent/attackDefense and loaded using a pathsObject created at buildtime using getStaticProps",
+    keywords: ["Vercel", "Next.js", "Chakra UI"],
+    date: '19 September 2021',
+    dateCreated: new Date(2021, 8, 19),
+    dateLastUpdated: new Date(2021, 9, 2)
+  },
+  /*
   {
     link: 'http://34.75.232.117:80',
     github_link: 'https://github.com/Borghese-Gladiator/first-docker-gcp',
@@ -632,29 +655,6 @@ const apps = [
     dateCreated: new Date(2021, 8, 31),
     dateLastUpdated: new Date(2021, 8, 31)
   },
-  {
-    link: 'https://first-julia-genie-app.herokuapp.com/',
-    github_link: 'https://github.com/Borghese-Gladiator/MyFirstGenieApp',
-    thumbnail: GenieLogoImage,
-    title: 'First Genie App',
-    description: "Genie is a web framework (like Django) written for Julia. In this app, I learned Julia through JuliaAcademy and applied my learnings to create & deploy the basic web app with Genie.",
-    keywords: ["Heroku", "Genie", "Julia"],
-    date: '6 September 2021',
-    dateCreated: new Date(2021, 9, 6),
-    dateLastUpdated: new Date(2021, 9, 6)
-  },
-  {
-    link: 'https://valorant-lineups-six.vercel.app/',
-    github_link: 'https://github.com/Borghese-Gladiator/valorant-lineups',
-    thumbnail: ValorantLogoImage,
-    title: 'Valorant Lineups',
-    description: "Next.js + Chakra UI components on Vercel to create Valorant Lineups app that enables me to quickly filter by map, agent, and attackDefense to find corresponding images from the public folder. These paths are stored in a directory structure /map/agent/attackDefense and loaded using a pathsObject created at buildtime using getStaticProps",
-    keywords: ["Vercel", "Next.js", "Chakra UI"],
-    date: '19 September 2021',
-    dateCreated: new Date(2021, 9, 19),
-    dateLastUpdated: new Date(2021, 9, 19)
-  },
-  /*
   {
     link: 'https://python-text-processing.herokuapp.com/',
     github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
