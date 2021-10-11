@@ -58,6 +58,7 @@ import DiscordLogoImage from '../images/Discord-Logo.png';
 import GCPLogoImage from '../images/Google-Cloud-Platform-900x400-1.jpg';
 import GenieLogoImage from '../images/genie.png';
 import ValorantLogoImage from '../images/valorant_logo.png';
+import OtakuListImage from '../images/otaku_list_image.jpg';
 
 // styles
 const pageStyles = {
@@ -642,6 +643,17 @@ const apps = [
     date: '19 September 2021',
     dateCreated: new Date(2021, 8, 19),
     dateLastUpdated: new Date(2021, 9, 2)
+  },
+  {
+    link: 'https://next-otaku-list.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
+    thumbnail: OtakuListImage,
+    title: 'Otaku List',
+    description: "Next.js + MongoDB Atlas app to save anime/manga/oneshot title into cloud. If given an anime or manga title, this app loads further info from Jikan - API for retrieving series info from MAL. Uses Storybook to view UI components in isoluation & Swagger to view API documentation using OpenAPI specifications. Uses Jest for mocking & React Testing Libraty to validate page content.",
+    keywords: ["Vercel", "Next.js", "MongoDB Atlas", "Chakra UI", "Storybook", "Swagger", "Jest", "React Testing Library"],
+    date: '8 October 2021',
+    dateCreated: new Date(2021, 9, 8),
+    dateLastUpdated: new Date(2021, 9, 10)
   },
   /*
   {
