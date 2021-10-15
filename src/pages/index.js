@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
+
 // package to add meta
 import { Helmet } from "react-helmet";
-// custom components
+
+// CUSTOM
 import Loading from '../components/Loading';
 import Card from '../components/Card';
 import SortButton from '../components/SortButton';
-// page styling
+
+// PAGE STYLING
 import '../styles/index.css';
 
-// image assets
+// IMAGE ASSETS
 import ToDoImg from '../images/todo_list_notebook_coffee.jpg';
 import MERNImg from '../images/mern-logos.png';
 // import FlaskTutorialImg from '../images/Screenshot 2021-01-19 051837.png';
@@ -59,6 +62,7 @@ import GCPLogoImage from '../images/Google-Cloud-Platform-900x400-1.jpg';
 import GenieLogoImage from '../images/genie.png';
 import ValorantLogoImage from '../images/valorant_logo.png';
 import OtakuListImage from '../images/otaku_list_image.jpg';
+import RedisLogoImage from '../images/Redis-Logo.png';
 
 // styles
 const pageStyles = {
@@ -653,7 +657,18 @@ const apps = [
     keywords: ["Vercel", "Next.js", "MongoDB Atlas", "Chakra UI", "Storybook", "Swagger", "Jest", "React Testing Library"],
     date: '8 October 2021',
     dateCreated: new Date(2021, 9, 8),
-    dateLastUpdated: new Date(2021, 9, 10)
+    dateLastUpdated: new Date(2021, 9, 15)
+  },
+  {
+    link: 'https://first-redis-server.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
+    thumbnail: RedisLogoImage,
+    title: 'First Redis Server',
+    description: "First time setting up redis myself on Heroku (chose to use npm package over paying for Redis plugin). Redis enables you to cache responses in a datastore and expedite server speeds significantly - used at work for a two-layered cache with Redis & PostgreSQL.",
+    keywords: ["Heroku", "Redis"],
+    date: '14 October 2021',
+    dateCreated: new Date(2021, 9, 14),
+    dateLastUpdated: new Date(2021, 9, 15)
   },
   /*
   {
