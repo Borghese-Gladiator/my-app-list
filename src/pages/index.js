@@ -646,7 +646,7 @@ const apps = [
     keywords: ["Vercel", "Next.js", "Chakra UI"],
     date: '19 September 2021',
     dateCreated: new Date(2021, 8, 19),
-    dateLastUpdated: new Date(2021, 9, 2)
+    dateLastUpdated: new Date(2021, 9, 17)
   },
   {
     link: 'https://next-otaku-list.vercel.app/',
