@@ -646,7 +646,7 @@ const apps = [
     keywords: ["Vercel", "Next.js", "Chakra UI"],
     date: '19 September 2021',
     dateCreated: new Date(2021, 8, 19),
-    dateLastUpdated: new Date(2021, 9, 17)
+    dateLastUpdated: new Date(2021, 9, 26)
   },
   {
     link: 'https://next-otaku-list.vercel.app/',
@@ -657,7 +657,7 @@ const apps = [
     keywords: ["Vercel", "Next.js", "MongoDB Atlas", "Chakra UI", "Storybook", "Swagger", "Jest", "React Testing Library"],
     date: '8 October 2021',
     dateCreated: new Date(2021, 9, 8),
-    dateLastUpdated: new Date(2021, 9, 15)
+    dateLastUpdated: new Date(2021, 9, 26)
   },
   {
     link: 'https://first-redis-server.herokuapp.com/',
