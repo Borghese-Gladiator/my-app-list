@@ -63,6 +63,7 @@ import GenieLogoImage from '../images/genie.png';
 import ValorantLogoImage from '../images/valorant_logo.png';
 import OtakuListImage from '../images/otaku_list_image.jpg';
 import RedisLogoImage from '../images/Redis-Logo.png';
+import ResumeComputerIconImage from '../images/computer-icons-resume-blue-text.png';
 
 // styles
 const pageStyles = {
@@ -669,6 +670,17 @@ const apps = [
     date: '14 October 2021',
     dateCreated: new Date(2021, 9, 14),
     dateLastUpdated: new Date(2021, 9, 15)
+  },
+  {
+    link: 'https://first-redis-server.herokuapp.com/',
+    github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
+    thumbnail: ResumeComputerIconImage,
+    title: 'Resume Skill Tree',
+    description: "Next.js + Geist UI component library to create skill tree that lists all technologies I have worked with. Mostly a refresher as I wrote down technologies I worked with a long time ago and how they are related.",
+    keywords: ["Vercel", "Next.js", "Geist UI"],
+    date: '25 November 2021',
+    dateCreated: new Date(2021, 10, 25),
+    dateLastUpdated: new Date(2021, 10, 25)
   },
   /*
   {
