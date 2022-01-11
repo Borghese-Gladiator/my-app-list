@@ -64,6 +64,8 @@ import ValorantLogoImage from '../images/valorant_logo.png';
 import OtakuListImage from '../images/otaku_list_image.jpg';
 import RedisLogoImage from '../images/Redis-Logo.png';
 import ResumeComputerIconImage from '../images/computer-icons-resume-blue-text.png';
+import MicroFrontendImage from '../images/Micro_Frontends.png';
+import ReactQueryIconImage from '../images/react-query.png';
 
 // styles
 const pageStyles = {
@@ -672,7 +674,7 @@ const apps = [
     dateLastUpdated: new Date(2021, 9, 15)
   },
   {
-    link: 'https://first-redis-server.herokuapp.com/',
+    link: 'https://resume-skills-roadmapper.vercel.app/',
     github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
     thumbnail: ResumeComputerIconImage,
     title: 'Resume Skill Tree',
@@ -682,7 +684,29 @@ const apps = [
     dateCreated: new Date(2021, 10, 25),
     dateLastUpdated: new Date(2021, 10, 25)
   },
+  {
+    link: 'https://first-react-query.netlify.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-react-query',
+    thumbnail: ReactQueryIconImage,
+    title: 'First React Query',
+    description: "Gets list of users from jsonplaceholder and uses React Query to manage state. React Query enables users to to fetch, synchronize, update, and cache your remote data while also reducing the amount of code you need to write by providing you two simple hooks and one utility function. Used the given useQuery and useMutations hooks to cache data",
+    keywords: ["Netlify", "React", "React Query"],
+    date: '11 January 2021',
+    dateCreated: new Date(2022, 0, 11),
+    dateLastUpdated: new Date(2022, 0, 11)
+  },
   /*
+  {
+    link: 'https://resume-skills-roadmapper.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
+    thumbnail: MicroFrontendImage,
+    title: 'First React Micro Frontends',
+    description: "Implemented micro frontends using CRACO override for CRA - wrote Dashboard Page, Admin Page, & Client Hub which loads the other two standalone frontend apps. Implemented by hosting three apps on Vercel where Client Hub loads the other two apps",
+    keywords: ["Vercel", "CRACO", "create-react-app"],
+    date: '26 November 2021',
+    dateCreated: new Date(2021, 10, 26),
+    dateLastUpdated: new Date(2021, 10, 26)
+  },
   {
     link: 'http://34.75.232.117:80',
     github_link: 'https://github.com/Borghese-Gladiator/first-docker-gcp',
