@@ -66,6 +66,7 @@ import RedisLogoImage from '../images/Redis-Logo.png';
 import ResumeComputerIconImage from '../images/computer-icons-resume-blue-text.png';
 import MicroFrontendImage from '../images/Micro_Frontends.png';
 import ReactQueryIconImage from '../images/react-query.png';
+import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
 
 // styles
 const pageStyles = {
@@ -691,9 +692,20 @@ const apps = [
     title: 'First React Query',
     description: "Gets list of users from jsonplaceholder and uses React Query to manage state. React Query enables users to to fetch, synchronize, update, and cache your remote data while also reducing the amount of code you need to write by providing you two simple hooks and one utility function. Used the given useQuery and useMutations hooks to cache data",
     keywords: ["Netlify", "React", "React Query"],
-    date: '11 January 2021',
+    date: '11 January 2022',
     dateCreated: new Date(2022, 0, 11),
     dateLastUpdated: new Date(2022, 0, 11)
+  },
+  {
+    link: 'https://pay-to-vote-dapp.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/pay-to-vote-dapp',
+    thumbnail: CreaticlesLogoImage,
+    title: 'Creaticles - Money Auction DApp',
+    description: "Creaticles contract work. Every voter contributes an amount to play and the voter with the highest contribution takes the whole pool home at the end of the auction! Smart contract deployed to Ropsten Testnet. Calls backend using Ethers.js and saves to MongoDB Atlas. Developed and deployed Solidity smart contract using Hardhat.js. Interacts with users using Metamask.",
+    keywords: ["Vercel", "Web 3.0", "Ethereum", "MetaMask", "Ethers.js", "Hardhat.js", "Next.js", "Chakra UI" ],
+    date: '13 February 2022',
+    dateCreated: new Date(2022, 1, 13),
+    dateLastUpdated: new Date(2022, 1, 13)
   },
   /*
   {
