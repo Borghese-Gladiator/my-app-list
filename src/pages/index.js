@@ -66,6 +66,7 @@ import RedisLogoImage from '../images/Redis-Logo.png';
 import ResumeComputerIconImage from '../images/computer-icons-resume-blue-text.png';
 import MicroFrontendImage from '../images/Micro_Frontends.png';
 import ReactQueryIconImage from '../images/react-query.png';
+import EthereumLogoImage from '../images/ethereum-logo-portrait-black-gray.png';
 import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
 
 // styles
@@ -697,14 +698,25 @@ const apps = [
     dateLastUpdated: new Date(2022, 0, 11)
   },
   {
+    link: 'https://first-nextjs-hardhat.vercel.app/',
+    github_link: 'https://github.com/Borghese-Gladiator/first-nextjs-hardhat',
+    thumbnail: EthereumLogoImage,
+    title: 'First Web 3.0 DApp',
+    description: "Investigation project about Web 3.0, Blockchain, P2P, Proof of Stakes, Proof of Work, Smart Contract, Solidity, NFT, HardHat, Ethereum Test Networks, MetaMask (hot wallet vs cold wallet). Deployed sample contract and wrote up sample frontend to use contract functions. Used ENV variables to hold contract addresses and used Greeter and SimpleStorage",
+    keywords: ["Vercel", "Web 3.0", "Ethereum", "MetaMask", "Ethers.js", "Hardhat.js", "Next.js", "Chakra UI" ],
+    date: '25 January 2022',
+    dateCreated: new Date(2022, 0, 25),
+    dateLastUpdated: new Date(2022, 0, 28)
+  },
+  {
     link: 'https://pay-to-vote-dapp.vercel.app/',
     github_link: 'https://github.com/Borghese-Gladiator/pay-to-vote-dapp',
     thumbnail: CreaticlesLogoImage,
     title: 'Creaticles - Money Auction DApp',
-    description: "Creaticles contract work. Every voter contributes an amount to play and the voter with the highest contribution takes the whole pool home at the end of the auction! Smart contract deployed to Ropsten Testnet. Calls backend using Ethers.js and saves to MongoDB Atlas. Developed and deployed Solidity smart contract using Hardhat.js. Interacts with users using Metamask.",
-    keywords: ["Vercel", "Web 3.0", "Ethereum", "MetaMask", "Ethers.js", "Hardhat.js", "Next.js", "Chakra UI" ],
+    description: "(Creaticles contract work) Every voter contributes an amount to play and the voter with the highest contribution takes the whole pool home at the end of the auction! Smart contract deployed to Ropsten Testnet. Calls backend using Ethers.js and saves to MongoDB Atlas. Developed and deployed Solidity smart contract using Hardhat.js. Interacts with users using Metamask.",
+    keywords: ["Vercel", "Web 3.0", "Ethereum", "MetaMask", "Ethers.js", "Hardhat.js", "Next.js", "Chakra UI", "MongoDB Atlas" ],
     date: '13 February 2022',
-    dateCreated: new Date(2022, 1, 13),
+    dateCreated: new Date(2022, 0, 29),
     dateLastUpdated: new Date(2022, 1, 13)
   },
   /*
