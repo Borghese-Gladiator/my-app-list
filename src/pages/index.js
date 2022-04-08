@@ -68,6 +68,7 @@ import MicroFrontendImage from '../images/Micro_Frontends.png';
 import ReactQueryIconImage from '../images/react-query.png';
 import EthereumLogoImage from '../images/ethereum-logo-portrait-black-gray.png';
 import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
+import DockerPostgresPgAdminImage from '../images/docker_postgres_pgadmin.png';
 
 // styles
 const pageStyles = {
@@ -257,7 +258,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 1, 5)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/python-mp3-player',
     github_link: 'https://github.com/Borghese-Gladiator/python-mp3-player',
     thumbnail: MusicPlayerImg,
     title: 'Python MP3 Player - Windows app',
@@ -268,7 +268,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 1, 6)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/simple-sine-curve/tree/main',
     github_link: 'https://github.com/Borghese-Gladiator/simple-sine-curve/tree/main',
     thumbnail: TensorTradeImg,
     title: 'TensorTrade - Reinforcement Learning Trading Algorithm',
@@ -456,7 +455,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 2, 13)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/python-qr-code-reader',
     github_link: 'https://github.com/Borghese-Gladiator/python-qr-code-reader',
     thumbnail: OpenCVLogoImg,
     title: 'OpenCV + pyzbar QR Code Reader',
@@ -467,7 +465,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 2, 26)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
     github_link: 'https://github.com/Borghese-Gladiator/python-face-recognizer',
     thumbnail: DLibThumbnailImg,
     title: 'First Face Recognition',
@@ -489,7 +486,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 2, 27)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/first-iota-node',
     github_link: 'https://github.com/Borghese-Gladiator/first-iota-node',
     thumbnail: IotaLogoImg,
     title: 'First IOTA Node',
@@ -511,7 +507,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 3, 7)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/express-open-api',
     github_link: 'https://github.com/Borghese-Gladiator/express-open-api',
     thumbnail: OpenAPILogoImg,
     title: 'First OpenAPI (formerly Swagger)',
@@ -555,7 +550,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 3, 27)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/spam-classification',
     github_link: 'https://github.com/Borghese-Gladiator/spam-classification',
     thumbnail: SpamClassifierImage,
     title: 'Python Spam Classification',
@@ -566,7 +560,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 3, 30)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/auto-scroller-chrome-extension',
     github_link: 'https://github.com/Borghese-Gladiator/auto-scroller-chrome-extension',
     thumbnail: ChromeExtensionImage,
     title: 'Chrome Auto Scroller',
@@ -577,7 +570,6 @@ const apps = [
     dateLastUpdated: new Date(2021, 4, 9)
   },
   {
-    link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
     github_link: 'https://github.com/Borghese-Gladiator/classify-gender-by-walking',
     thumbnail: PersonWalkingImage,
     title: 'Python Classifying Gender by Gait',
@@ -718,6 +710,16 @@ const apps = [
     date: '13 February 2022',
     dateCreated: new Date(2022, 0, 29),
     dateLastUpdated: new Date(2022, 1, 13)
+  },
+  {
+    github_link: 'https://github.com/Borghese-Gladiator/sql-learning',
+    thumbnail: DockerPostgresPgAdminImage,
+    title: 'SQL Learning',
+    description: "Used Docker to simplify Postgres installation locally. Went through online courses to learn SQL and what tables to create for my own projects.",
+    keywords: ["Docker", "Postgres", "SQL"],
+    date: '8 April 2022',
+    dateCreated: new Date(2022, 3, 8),
+    dateLastUpdated: new Date(2022, 3, 8)
   },
   /*
   {
