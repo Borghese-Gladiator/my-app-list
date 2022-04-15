@@ -69,6 +69,7 @@ import ReactQueryIconImage from '../images/react-query.png';
 import EthereumLogoImage from '../images/ethereum-logo-portrait-black-gray.png';
 import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
 import DockerPostgresPgAdminImage from '../images/docker_postgres_pgadmin.png';
+import AngularTourOfHeroesImage from '../images/angular_tour_of_heroes.jpg';
 
 // styles
 const pageStyles = {
@@ -720,6 +721,17 @@ const apps = [
     date: '8 April 2022',
     dateCreated: new Date(2022, 3, 8),
     dateLastUpdated: new Date(2022, 3, 8)
+  },
+  {
+    link: 'https://ts-angular-tour-of-heroes.netlify.app',
+    github_link: 'https://github.com/Borghese-Gladiator/angular-tour-of-heroes',
+    thumbnail: AngularTourOfHeroesImage,
+    title: 'Angular Tour of Heroes',
+    description: "Followed default Angular tutorial and deployed the content to Netlify. Followed tutorial to learn TypeScript and RxJS observer library. Angular Workflow - App module imports components & modules -> TypeScript component calls service methods for data -> HTML component calls imported components using CSS element selector.",
+    keywords: ["Angular", "TypeScript", "RxJS"],
+    date: '15 April 2022',
+    dateCreated: new Date(2022, 3, 15),
+    dateLastUpdated: new Date(2022, 3, 15)
   },
   /*
   {
