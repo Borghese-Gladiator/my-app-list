@@ -720,7 +720,7 @@ const apps = [
     keywords: ["Docker", "Postgres", "SQL"],
     date: '8 April 2022',
     dateCreated: new Date(2022, 3, 8),
-    dateLastUpdated: new Date(2022, 3, 8)
+    dateLastUpdated: new Date(2022, 3, 27)
   },
   {
     link: 'https://ts-angular-tour-of-heroes.netlify.app',
