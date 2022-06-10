@@ -740,9 +740,9 @@ const apps = [
     title: 'React AbortController',
     description: "Followed tutorial to avoid React race conditions using an AbortController. First AbortController aborts API calls to jsonplaceholder if page is switched before promise is completed (if not cancelled, the first request results could overwrite the second request). Second AbortController aborts setTimeout",
     keywords: ["TypeScript", "React"],
-    date: '10 June 2022',
-    dateCreated: new Date(2022, 5, 10),
-    dateLastUpdated: new Date(2022, 5, 10)
+    date: '9 June 2022',
+    dateCreated: new Date(2022, 5, 9),
+    dateLastUpdated: new Date(2022, 5, 9)
   },
   /*
   {
