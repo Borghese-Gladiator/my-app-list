@@ -70,6 +70,7 @@ import EthereumLogoImage from '../images/ethereum-logo-portrait-black-gray.png';
 import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
 import DockerPostgresPgAdminImage from '../images/docker_postgres_pgadmin.png';
 import AngularTourOfHeroesImage from '../images/angular_tour_of_heroes.jpg';
+import AbortControllerImage from '../images/abortController.png';
 
 // styles
 const pageStyles = {
@@ -732,6 +733,16 @@ const apps = [
     date: '15 April 2022',
     dateCreated: new Date(2022, 3, 15),
     dateLastUpdated: new Date(2022, 3, 15)
+  },
+  {
+    github_link: "https://github.com/Borghese-Gladiator/react-abort-controller",
+    thumbnail: AbortControllerImage,
+    title: 'React AbortController',
+    description: "Followed tutorial to avoid React race conditions using an AbortController. First AbortController aborts API calls to jsonplaceholder if page is switched before promise is completed (if not cancelled, the first request results could overwrite the second request). Second AbortController aborts setTimeout",
+    keywords: ["TypeScript", "React"],
+    date: '10 June 2022',
+    dateCreated: new Date(2022, 5, 10),
+    dateLastUpdated: new Date(2022, 5, 10)
   },
   /*
   {
