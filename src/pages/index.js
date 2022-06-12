@@ -71,6 +71,7 @@ import CreaticlesLogoImage from '../images/creaticles-logo-w-name.png';
 import DockerPostgresPgAdminImage from '../images/docker_postgres_pgadmin.png';
 import AngularTourOfHeroesImage from '../images/angular_tour_of_heroes.jpg';
 import AbortControllerImage from '../images/abortController.png';
+import BridgeImage from '../images/pexels-reagan-787642.jpg';
 
 // styles
 const pageStyles = {
@@ -743,6 +744,16 @@ const apps = [
     date: '9 June 2022',
     dateCreated: new Date(2022, 5, 9),
     dateLastUpdated: new Date(2022, 5, 9)
+  },
+  {
+    github_link: "https://github.com/Borghese-Gladiator/first-graphql-express",
+    thumbnail: BridgeImage,
+    title: 'GraphQL Express using Decorators',
+    description: "Implemented GraphQL server using express, express-graphql, graphql and added types using type-graphql",
+    keywords: ["TypeScript", "Express", "GraphQL", "TypeGraphQL"],
+    date: '12 June 2022',
+    dateCreated: new Date(2022, 5, 12),
+    dateLastUpdated: new Date(2022, 5, 12)
   },
   /*
   {
