@@ -72,6 +72,7 @@ import DockerPostgresPgAdminImage from '../images/docker_postgres_pgadmin.png';
 import AngularTourOfHeroesImage from '../images/angular_tour_of_heroes.jpg';
 import AbortControllerImage from '../images/abortController.png';
 import BridgeImage from '../images/pexels-reagan-787642.jpg';
+import FullStackDAppLogoImage from '../images/full-stack-dapp-tutorial-vite-react-tailwind-solidity-nocdn.avif';
 
 // styles
 const pageStyles = {
@@ -755,7 +756,25 @@ const apps = [
     dateCreated: new Date(2022, 5, 12),
     dateLastUpdated: new Date(2022, 5, 12)
   },
+  {
+    github_link: "https://github.com/Borghese-Gladiator/full-stack-dapp",
+    thumbnail: FullStackDAppLogoImage,
+    title: 'React and Hardhat DApp ',
+    description: "Bootstrapped React client using Vite and added styling with TailwindCSS. Wrote up custom components for Navbar, Footer, Loader, Services, Transactions. Bootstrapped smart_contracts with Hardhat.js and used Alchemy to use Alchemy Ethereum API",
+    keywords: ["DApp", "Vite", "React", "TailwindCSS", "Hardhat.js", "Solidity"],
+    date: '26 June 2022',
+    dateCreated: new Date(2022, 5, 26),
+    dateLastUpdated: new Date(2022, 5, 26)
+  },
   /*
+	
+    title: 'Apollo GraphQL',
+    description: "Implemented Apollo GraphQL client and server using official tutorial.",
+    keywords: ["Apollo GraphQL"],
+    date: '12 June 2022',
+    dateCreated: new Date(2022, 5, 12),
+    dateLastUpdated: new Date(2022, 5, 12)
+  },
   {
     link: 'https://resume-skills-roadmapper.vercel.app/',
     github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
