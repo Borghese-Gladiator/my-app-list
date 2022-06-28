@@ -756,6 +756,17 @@ const apps = [
     dateCreated: new Date(2022, 5, 12),
     dateLastUpdated: new Date(2022, 5, 12)
   },
+	{
+		link: "https://apollo-graphql-client.netlify.app/",
+		github_link: "https://github.com/Borghese-Gladiator/first-apollo-server",
+    thumbnail: FullStackApolloGraphQL,
+		title: 'Full Stack Apollo GraphQL',
+		description: "Implemented Apollo GraphQL client and server using the official tutorials. I deployed the backend to Heroku and the frontend to Netlify. I pushed the /server subdirectory using git subtree push --prefix server heroku master and then set the bulid command to the client directory for Netlify.",
+		keywords: ["GraphQL", "Apollo Client", "Apollo Server", ],
+		date: '21 June 2022',
+		dateCreated: new Date(2022, 5, 21),
+		dateLastUpdated: new Date(2022, 5, 27)
+	},
   {
     github_link: "https://github.com/Borghese-Gladiator/full-stack-dapp",
     thumbnail: FullStackDAppLogoImage,
@@ -765,7 +776,7 @@ const apps = [
     date: '26 June 2022',
     dateCreated: new Date(2022, 5, 26),
     dateLastUpdated: new Date(2022, 5, 26)
-  },
+  }
   /*
 	
     title: 'Apollo GraphQL',
