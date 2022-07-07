@@ -73,6 +73,7 @@ import AngularTourOfHeroesImage from '../images/angular_tour_of_heroes.jpg';
 import AbortControllerImage from '../images/abortController.png';
 import BridgeImage from '../images/pexels-reagan-787642.jpg';
 import FullStackDAppLogoImage from '../images/full-stack-dapp-tutorial-vite-react-tailwind-solidity-nocdn.avif';
+import FireshipCryptographyImage from '../images/fireship_cryptography.jpg';
 
 // styles
 const pageStyles = {
@@ -776,49 +777,17 @@ const apps = [
     date: '26 June 2022',
     dateCreated: new Date(2022, 5, 26),
     dateLastUpdated: new Date(2022, 5, 26)
-  }
-  /*
-	
-    title: 'Apollo GraphQL',
-    description: "Implemented Apollo GraphQL client and server using official tutorial.",
-    keywords: ["Apollo GraphQL"],
-    date: '12 June 2022',
-    dateCreated: new Date(2022, 5, 12),
-    dateLastUpdated: new Date(2022, 5, 12)
   },
-  {
-    link: 'https://resume-skills-roadmapper.vercel.app/',
-    github_link: 'https://github.com/Borghese-Gladiator/next-otaku-list',
-    thumbnail: MicroFrontendImage,
-    title: 'First React Micro Frontends',
-    description: "Implemented micro frontends using CRACO override for CRA - wrote Dashboard Page, Admin Page, & Client Hub which loads the other two standalone frontend apps. Implemented by hosting three apps on Vercel where Client Hub loads the other two apps",
-    keywords: ["Vercel", "CRACO", "create-react-app"],
-    date: '26 November 2021',
-    dateCreated: new Date(2021, 10, 26),
-    dateLastUpdated: new Date(2021, 10, 26)
-  },
-  {
-    link: 'http://34.75.232.117:80',
-    github_link: 'https://github.com/Borghese-Gladiator/first-docker-gcp',
-    thumbnail: GCPLogoImage,
-    title: 'First GCP Multi-Docker App',
-    description: "(NO DEMO - costs money to host) Deployed MERN app using YAML configurations (<ba>.yml for PRD and docker-compose.yml for DEV)",
-    keywords: ["GCP", "Docker", "GKE", "Kubernetes", "Express"],
-    date: '31 Aug 2021',
-    dateCreated: new Date(2021, 8, 31),
-    dateLastUpdated: new Date(2021, 8, 31)
-  },
-  {
-    link: 'https://python-text-processing.herokuapp.com/',
-    github_link: 'https://github.com/Borghese-Gladiator/Python-Text-Processing',
-    thumbnail: FlaskTutorialImg,
-    title: 'NLTK Text Processing',
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    date: '25 January 2021',
-    dateCreated: new Date(2021, 0, 25),
-    dateLastUpdated: new Date(2021, 0, 25)
-  },
-  */
+	{
+		github_link: "https://gist.github.com/Borghese-Gladiator/f76fbc2344a5f8fb29de3b4ea1c8bcc7",
+    thumbnail: FireshipCryptographyImage,
+		title: 'Node.js Cryptography',
+    description: "Followed Fireship youtube video to learn about Hashing, Salt, HMAC, Shared Encryption, Keypairs, Assymetric Encryption, Signing, and implemented each using the standard crypto Node.js module.",
+    keywords: ["Node.js", "crypto"],
+    date: '5 July 2022',
+    dateCreated: new Date(2022, 6, 5),
+    dateLastUpdated: new Date(2022, 6, 5)
+	}
 ]
 
 const SORT_MAP = {
