@@ -74,6 +74,7 @@ import AbortControllerImage from '../images/abortController.png';
 import BridgeImage from '../images/pexels-reagan-787642.jpg';
 import FullStackDAppLogoImage from '../images/full-stack-dapp-tutorial-vite-react-tailwind-solidity-nocdn.avif';
 import FireshipCryptographyImage from '../images/fireship_cryptography.jpg';
+import InvoiceVueTailwindFirebaseImage from '../images/Build-an-Invoicing-App-with-Vuejs-and-Tailwind-CSS.webp';
 
 // styles
 const pageStyles = {
@@ -787,6 +788,17 @@ const apps = [
     date: '5 July 2022',
     dateCreated: new Date(2022, 6, 5),
     dateLastUpdated: new Date(2022, 6, 5)
+	},
+	{
+		link: "https://invoice-vue3-tailwindcss0791.netlify.app/",
+		github_link: "https://github.com/Borghese-Gladiator/invoice-vuejs-tutorial",
+    thumbnail: InvoiceVueTailwindFirebaseImage,
+		title: 'Invoice App with Firebase',
+    description: "Built app using tutorial as a guide (content from tutorial did not work and I have included a bug list in the README). The end app was written with latest technologies rather than older versions - Vue 3, TailwindCSS, Firebase Realtime Database web version 9. I deployed to Netlify and used Vue to load all the variables (loads all env with prefix VUE_)",
+    keywords: ["Vue 3", "TailwindCSS", "Firebase Realtime Database"],
+    date: '7 July 2022',
+    dateCreated: new Date(2022, 6, 6),
+    dateLastUpdated: new Date(2022, 6, 7)
 	}
 ]
 
