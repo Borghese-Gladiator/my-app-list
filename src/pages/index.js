@@ -75,6 +75,7 @@ import BridgeImage from '../images/pexels-reagan-787642.jpg';
 import FullStackDAppLogoImage from '../images/full-stack-dapp-tutorial-vite-react-tailwind-solidity-nocdn.avif';
 import FireshipCryptographyImage from '../images/fireship_cryptography.jpg';
 import InvoiceVueTailwindFirebaseImage from '../images/Build-an-Invoicing-App-with-Vuejs-and-Tailwind-CSS.webp';
+import FireshipAPIMonetizationImage from '../images/fireship_api_monetization.jpg';
 
 // styles
 const pageStyles = {
@@ -782,7 +783,7 @@ const apps = [
 	{
 		github_link: "https://gist.github.com/Borghese-Gladiator/f76fbc2344a5f8fb29de3b4ea1c8bcc7",
     thumbnail: FireshipCryptographyImage,
-		title: 'Node.js Cryptography',
+		title: 'Node.js Cryptography Gist',
     description: "Followed Fireship youtube video to learn about Hashing, Salt, HMAC, Shared Encryption, Keypairs, Assymetric Encryption, Signing, and implemented each using the standard crypto Node.js module.",
     keywords: ["Node.js", "crypto"],
     date: '5 July 2022',
@@ -799,6 +800,17 @@ const apps = [
     date: '7 July 2022',
     dateCreated: new Date(2022, 6, 6),
     dateLastUpdated: new Date(2022, 6, 7)
+	},
+	{
+		github_link: "https://gist.github.com/Borghese-Gladiator/e7401a00f5a5ec94942a28dfe77bcb32",
+    thumbnail: FireshipAPIMonetizationImage,
+		title: 'API Monetization Gist',
+    description: "Followed Fireship youtube video to learn about API Monetization using Stripe and wrote up basic gist",
+    keywords: ["Node.js", "Stripe"],
+    date: '8 July 2022',
+    dateCreated: new Date(2022, 6, 8),
+    dateLastUpdated: new Date(2022, 6, 8)
+		
 	}
 ]
 
